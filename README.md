@@ -14,5 +14,5 @@ Run All Test Methods <br>
 Run a Single Unit Test <br>
 <b><i>mvn -Dtest=UsersServiceImpl#testCreateUser test</i></b>
 
-More info:
+More info: <br>
 http://www.appsdeveloperblog.com/running-a-single-unit-test-with-maven/
