@@ -1,6 +1,12 @@
 # Java-Guide
 Java, Maven, Redhat, JBoss and more is explained in this section.
 
+## Programming language
+
+### Variables 
+
+final : Variable is final and CAN'T be modified. <br>
+
 ## Maven 
 
 Apache Maven is a build automation tool for Java projects. It helps us building Java projects with dependencies and special build requirements.
