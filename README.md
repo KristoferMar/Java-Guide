@@ -33,3 +33,6 @@ https://maven.apache.org/guides/introduction/introduction-to-the-pom.html
 #### .iml files
 IML files are used for storing smaller sections of a larger development project. IntelliJ IDEA uses .IPR files for storing projects, which may reference multiple IML files. Both IPR and IML files use XML formatting. <br>
 https://fileinfo.com/extension/iml
+
+#### target folders
+The target folder is the maven default output folder. When a project is build or packaged, all the content of the sources, resources and web files will be put inside of it, it will be used for construct the artifacts and for run tests. You can delete all the target folder content with mvn clean command.
