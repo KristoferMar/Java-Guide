@@ -29,3 +29,7 @@ http://www.appsdeveloperblog.com/running-a-single-unit-test-with-maven/
 
 Project Object Model includes all details about the project and the configuration details used by maven. Some of the configurations are dependencies, the plugins or goals that can be executed, the build profiles, and so on. Other information such as the project version, description, developers, mailing lists and such can also be specified. More info below... <br>
 https://maven.apache.org/guides/introduction/introduction-to-the-pom.html
+
+#### .iml files
+IML files are used for storing smaller sections of a larger development project. IntelliJ IDEA uses .IPR files for storing projects, which may reference multiple IML files. Both IPR and IML files use XML formatting. <br>
+https://fileinfo.com/extension/iml
