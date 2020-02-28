@@ -22,3 +22,10 @@ Run a Single Unit Test <br>
 
 More info: <br>
 http://www.appsdeveloperblog.com/running-a-single-unit-test-with-maven/
+
+### Project setup 
+
+#### pom.xml
+
+Project Object Model includes all details about the project and the configuration details used by maven. Some of the configurations are dependencies, the plugins or goals that can be executed, the build profiles, and so on. Other information such as the project version, description, developers, mailing lists and such can also be specified. More info below... <br>
+https://maven.apache.org/guides/introduction/introduction-to-the-pom.html
