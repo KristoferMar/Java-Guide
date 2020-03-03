@@ -1,7 +1,0 @@
-INDEX VERSION 1.4+/Users/kristofereinarsson/Documents/Projects/Java-Guide/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-917421626.index
-995476088.index
-4075308234.index
-2823499469.index
-772065657.index
-3916702412.index
