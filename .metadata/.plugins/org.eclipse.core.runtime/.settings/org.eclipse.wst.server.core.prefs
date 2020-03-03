@@ -1,0 +1,2 @@
+eclipse.preferences.version=1
+runtimes=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<runtimes>\n  <runtime PROPERTY_EXEC_ENVIRONMENT\="JavaSE-1.8" id\="Red Hat JBoss EAP 7.0 Runtime" location\="/Users/kristofereinarsson/jboss-eap-7.0" name\="Red Hat JBoss EAP 7.0 Runtime" org.jboss.ide.eclipse.as.core.runtime.configurationName\="" runtime-type-id\="org.jboss.ide.eclipse.as.runtime.eap.70" timestamp\="0"/>\n</runtimes>\n
