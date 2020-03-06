@@ -17,11 +17,29 @@ TEST <br>
 Run All Test Methods <br>
 <b><i>mvn test </i></b>
 
+Validates project correcly and makes sure all necessary information is available. It also makes sure the dependencies are downloaded. <br>
+<b><i>mvn validate</i></b>
+
+
 Run a Single Unit Test <br>
 <b><i>mvn -Dtest=UsersServiceImpl#testCreateUser test</i></b>
 
 More info: <br>
 http://www.appsdeveloperblog.com/running-a-single-unit-test-with-maven/
+
+### Project 
+
+Download / Compile all needed components in project <br>
+<b><i>mvn install</i></b>
+
+Compile the source code of the project 
+<b><i>mvn compile</i></b>
+
+
+
+Resolve all project dependencies <br>
+<b><i>mvn dependency:resolve</i></b>
+
 
 ### Project setup 
 
