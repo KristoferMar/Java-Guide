@@ -26,6 +26,7 @@ import javax.inject.Named;
 
 import com.appdev.cic.RestAPI.model.Member;
 import com.appdev.cic.RestAPI.service.MemberRegistration;
+import com.appdev.cic.RestAPI.service.MemberRemoval;
 
 // The @Model stereotype is a convenience mechanism to make this a request-scoped bean that has an
 // EL name
@@ -39,6 +40,9 @@ public class MemberController {
 
     @Inject
     private MemberRegistration memberRegistration;
+    
+    @Inject 
+    private MemberRemoval memberRemoval;
 
     @Produces
     @Named
@@ -60,6 +64,19 @@ public class MemberController {
             FacesMessage m = new FacesMessage(FacesMessage.SEVERITY_ERROR, errorMessage, "Registration unsuccessful");
             facesContext.addMessage(null, m);
         }
+    }
+    
+    public void remove() throws Exception {
+    	try {
+    		memberRemoval.remove(newMember);
+            FacesMessage m = new FacesMessage(FacesMessage.SEVERITY_INFO, "Removed!", "Removal successful");
+            facesContext.addMessage(null, m);
+		} catch (Exception e) {
+			// TODO: handle exception
+            String errorMessage = getRootErrorMessage(e);
+            FacesMessage m = new FacesMessage(FacesMessage.SEVERITY_ERROR, errorMessage, "Registration unsuccessful");
+            facesContext.addMessage(null, m);
+		}
     }
 
     private String getRootErrorMessage(Exception e) {
