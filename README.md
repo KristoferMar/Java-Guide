@@ -81,8 +81,7 @@ JAX-RS: javax.ws.rs includes the following annotations.
 
 - Defines the media types that the methods of a resource class or MessageBodyReader can accept and produce.
 
-Example for annotations above:
-
+<br>
 <h1>Context and Dependecy Injection </h1>
 Section can be found here: <br>
 <a href="https://github.com/KristoferMar/Java-Guide/tree/master/Context-Dependency-Injection" target="_blank">https://github.com/KristoferMar/Java-Guide/tree/master/Context-Dependency-Injection</a><br><br>
@@ -90,6 +89,8 @@ Section can be found here: <br>
 Documentation: <br>
 Inject: <br>
 <a href="https://docs.oracle.com/javaee/7/api/javax/enterprise/inject/package-summary.html" target="_blank">https://docs.oracle.com/javaee/7/api/javax/enterprise/inject/package-summary.html</a><br><br>
+
+<h1>Managing Persistance</h1>
 
 ### Project setup
 
