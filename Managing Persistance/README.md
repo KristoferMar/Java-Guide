@@ -43,20 +43,20 @@ Annotations assosiated with bean validation.<br>
 <h4>@NotNull</h4>
 - Verifies that value in field or property is not null
 
-<h3>@Null</h3>
+<h4>@Null</h4>
 - Verifies that the value is null
 
-<h3>@Size</h3>
+<h4>@Size</h4>
 - Verifies that the size of the field is between min and max including boundary values
 
-<h3>@Min</h3>
+<h4>@Min</h4>
 - Verifies the value is higher or equal to the minimum value set.
 
-<h3>@Max</h3>
+<h4>@Max</h4>
 - Verifies the value is less then or equal to the maximum accepted value.
 
-<h3>@Digists</h3>
-- Verifies the precision and scale of the field.
+<h4>@Digists</h4>
+- Verifies the precision and scale of the field. <br>
 - Example: <br>
 @Digits(integer=7, fraction,2) <br>
 private double monthlySale;
