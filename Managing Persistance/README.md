@@ -40,7 +40,7 @@ javax.validation.constraints
 
 Annotations assosiated with bean validation.<br>
 
-<h5>@NotNull<h5>
+<b><p>@NotNull</p><b>
 - Verifies that value in field or property is not null
 
 <h3>@Null</h3>
