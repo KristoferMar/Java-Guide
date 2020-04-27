@@ -92,7 +92,7 @@ Inject: <br>
 
 <br>
 <h1>Managing Persistance</h1>
-Section is foun here: <br>
+Section is found here: <br>
 <a href="https://github.com/KristoferMar/Java-Guide/tree/master/Managing%20Persistance" target="_blank">https://github.com/KristoferMar/Java-Guide/tree/master/Managing%20Persistance</a><br><br>
 
 
