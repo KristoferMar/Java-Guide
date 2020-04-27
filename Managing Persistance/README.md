@@ -16,12 +16,12 @@
 - Used to mark fields which are NOT going to be persitent to the database.
 
 <h4>@Id</h4>
-- Used to specifiy which field in you entity represents the primary key column in the database.
-- Your id must be some type of mutable type and there are 4 types to do that. 
-    - @GeneratedValue(GenerationType.AUTO) --> Default strategy.
-    - @GeneratedValue(GenerationType.SEQUENCE)
-    - @GeneratedValue(GenerationType.IDENTITY) --> uses the database identity column.
-    - @GeneratedValue(GenerationType.TABLE) --> Here you pull a number of items from the database to generate your value.
+- Used to specifiy which field in you entity represents the primary key column in the database. <br>
+- Your id must be some type of mutable type and there are 4 types to do that. <br>
+    - @GeneratedValue(GenerationType.AUTO) --> Default strategy. <br>
+    - @GeneratedValue(GenerationType.SEQUENCE) <br>
+    - @GeneratedValue(GenerationType.IDENTITY) --> uses the database identity column. <br>
+    - @GeneratedValue(GenerationType.TABLE) --> Here you pull a number of items from the database to generate your value. <br>
 
 <br>
 <h2>Entity Manager</h2>
