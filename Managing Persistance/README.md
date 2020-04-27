@@ -58,11 +58,10 @@ Annotations assosiated with bean validation.<br>
 <h4>@Digists</h4>
 - Verifies the precision and scale of the field. <br>
 - Example: <br>
-<textarea id="w3mission" rows="4" cols="50">
-At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
-</textarea>
+```JSX
 @Digits(integer=7, fraction,2) <br>
 private double monthlySale;
+```
 
 <h3>@DecimalMin</h3>
 - Verifies that the decimal value is geather than or equal to the value defined in the DecimalMin. (Takes a string)
