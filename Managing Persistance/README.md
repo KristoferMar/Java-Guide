@@ -2,20 +2,20 @@
 
 <h2>JPA Annotations</h2>
 
-<h3>@Entity</h3>
+<h4>@Entity</h4>
 - Is a pojo which has data which is actually goint to persit it to the database.
 - Database table name and class name needs to be the same -> else you have to use the annotation below:
 
-<h3>@Table</h3>
+<h4>@Table</h4>
 - Used to Map a class to a table in database.
 
-<h3>@Column</h3>
+<h4>@Column</h4>
 - Maps the field name and the column name in the database.
 
-<h3>@Transiant</h3>
+<h4>@Transiant</h4>
 - Used to mark fields which are NOT going to be persitent to the database.
 
-<h3>@Id</h3>
+<h4>@Id</h4>
 - Used to specifiy which field in you entity represents the primary key column in the database.
 - Your id must be some type of mutable type and there are 4 types to do that. 
     - @GeneratedValue(GenerationType.AUTO) --> Default strategy.
