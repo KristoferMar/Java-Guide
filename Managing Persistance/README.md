@@ -58,29 +58,27 @@ Annotations assosiated with bean validation.<br>
 <h4>@Digists</h4>
 - Verifies the precision and scale of the field. <br>
 - Example: <br>
-```JSX
 @Digits(integer=7, fraction,2) <br>
 private double monthlySale;
-```
 
-<h3>@DecimalMin</h3>
+<h4>@DecimalMin</h4>
 - Verifies that the decimal value is geather than or equal to the value defined in the DecimalMin. (Takes a string)
 
-<h3>@DecimalMax</h3>
+<h4>@DecimalMax</h4>
 - Verifies that the decimal value is kess than or equal to the value defined in the decimalMax. (takes a string)
 
-<h3>@Future</h3>
+<h4>@Future</h4>
 - Verifies it is a date in the future.
-<h3>@Past</h3>
+<h4>@Past</h4>
 - Verifies it is a date in the past.
 
-<h3>@Pattern</h3>
+<h4>@Pattern</h4>
 - Lets us insert regular expressions to take in only a phone number for example.
 
-<h3>@AssertFalse</h3>
+<h4>@AssertFalse</h4>
 - Verifies that our incoming value is false.
 
-<h3>@AssertTrue</h3>
+<h4>@AssertTrue</h4>
 - Verifies that our incoming value is true.
 
 <br>
