@@ -85,7 +85,6 @@ JAX-RS: javax.ws.rs includes the following annotations.
 <h1>Context and Dependecy Injection </h1>
 Section can be found here: <br>
 <a href="https://github.com/KristoferMar/Java-Guide/tree/master/Context-Dependency-Injection" target="_blank">https://github.com/KristoferMar/Java-Guide/tree/master/Context-Dependency-Injection</a><br><br>
-
 Documentation: <br>
 Inject: <br>
 <a href="https://docs.oracle.com/javaee/7/api/javax/enterprise/inject/package-summary.html" target="_blank">https://docs.oracle.com/javaee/7/api/javax/enterprise/inject/package-summary.html</a><br><br>
@@ -94,13 +93,13 @@ Inject: <br>
 <h1>Managing Persistance</h1>
 Section is found here: <br>
 <a href="https://github.com/KristoferMar/Java-Guide/tree/master/Managing%20Persistance" target="_blank">https://github.com/KristoferMar/Java-Guide/tree/master/Managing%20Persistance</a><br><br>
-
-
-
-
+Documentation: <br>
+<a href="https://docs.oracle.com/javaee/7/api/javax/validation/package-summary.html" target="_blank">https://docs.oracle.com/javaee/7/api/javax/validation/package-summary.html</a><br><br>
 
 ### Project setup
+
 #### pom.xml
+
 Project Object Model includes all details about the project and the configuration details used by maven. Some of the configurations are dependencies, the plugins or goals that can be executed, the build profiles, and so on. Other information such as the project version, description, developers, mailing lists and such can also be specified. More info below... <br>
 https://maven.apache.org/guides/introduction/introduction-to-the-pom.html
 

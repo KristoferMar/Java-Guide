@@ -1,6 +1,6 @@
 <h1>Managing Persistance</h1>
 
-<h2>JPA Annotations</h2>
+<h1>JPA Annotations</h1>
 
 <h4>@Entity</h4>
 - Is a pojo which has data which is actually goint to persit it to the database.
@@ -24,19 +24,9 @@
     - @GeneratedValue(GenerationType.TABLE) --> Here you pull a number of items from the database to generate your value. <br>
 
 <br>
-<h2>Entity Manager</h2>
-- The Entity Manger handles all our CRUD opperations.
-- The entity mangager can be created in the following ways but it's easiest to creat it thorugh CDI:
-
-- We use the netity manger on entities.
-
-<h3>entityManger methods</h3>
-...
-
-<br>
 <h2>Annotating classes to validate beans</h2>
 Package used:
-javax.validation.constraints
+<a href="https://docs.oracle.com/javaee/7/api/javax/validation/constraints/package-summary.html" target="_blank">https://docs.oracle.com/javaee/7/api/javax/validation/constraints/package-summary.html</a><br><br>
 
 Annotations assosiated with bean validation.<br>
 
@@ -82,6 +72,74 @@ private double monthlySale;
 - Verifies that our incoming value is true.
 
 <br>
-<h1>Creating Queries</h1>
+<h1>Entity Manager</h1>
+Documentation: <br>
+https://docs.oracle.com/javaee/7/api/javax/persistence/EntityManager.html <br>
 
-JPQL = Java Persistence Querry language.
+- The Entity Manger handles all our CRUD opperations.
+- The entity mangager can be created in the following ways but it's easiest to creat it thorugh CDI:
+- We use the netity manger on entities.
+
+<h3>entityManger methods</h3>
+<h4>persist()</h4>
+- Persits an entity an makes it managed. <br>
+- Inserts a row in a database table. <br>
+<h4>find()</h4>
+- searches an entity of a specific class by its primary key and returns a managed entity instance. <br>
+- If not found it returns null. <br>
+<h4>contains()</h4>
+- Takes an instance as an argument and checks whether the instance is in the persistence context. <br>
+<h4>merge()</h4>
+- Updates the data in a table for an existing detached entity. 
+- Inserts a new row in a database table for an entity that is new or a transient state. 
+<h4>remove()</h4>
+- Deletes a detached entity.<br>
+- Remove needs to find entity first: entityManager.remove(entityManager.find(Customer.class, cusId))
+<h4>clear()</h4>
+- Clears the persistence context. 
+- After execution all managed entities are in a detached state.
+<h4>refresh()</h4>
+- Refreshes the state of an entity instance from a database table.<br>
+
+We are also able to query an entity with the entity manager which is an important part of the entity manager class.<br>
+
+<br>
+<h2>Creating Queries</h2>
+Documentation: <br>
+https://docs.oracle.com/javaee/7/api/javax/persistence/EntityManager.html#createQuery-java.lang.String- <br>
+
+JPQL = Java Persistence Querry language. <br>
+
+Example of use: <br>
+
+<p>Retrieve records of all employees from a database:<p> <br>
+<i>entityManager.createQuery("SELECT e FROM Employee e");</i> <br>
+
+<p>Retrieve records of all employees from a database but with uppercase:<p> <br>
+- LOWER, UPPER, LENGTH are all supported.
+<i>entityManager.createQuery("SELECT UPPER(e.empName) from Employee e");</i> <br>
+
+<p>Retrieve records for specific salary:<p> <br>
+<i>entityManager.createQuery("SELECT e from Employee e where e.salary >120000");</i> <br>
+
+<h3>Dynamic query types</h3>
+<h4>Named Parameters in Queries</h4>
+- We are able to specify a veriable name which can be used in a query and changed dynamically <br>
+- We create a query variable with ":variable" and afterwards we have to set the parameter for the veriable below. See example. <br>
+Example: <br>
+Query query=entityManager.createQuery("SELECT e from Employee e where e.salary >:sal"); <br>
+query.setParameter("sal", salary);<br><br>
+
+<h4>Positional Parameters in Queries</h4>
+- We are able to specify a veriable position which can be used in a query and changed dynamically <br>
+- We create a query position variable with "?1", "?2", ... and afterwards we have to set the parameter for the veriable below. See example. <br>
+Example: <br>
+Query query=entityManager.createQuery("SELECT e from Employee e where e.salary >?1"); <br>
+query.setParameter(1, salary); <br>
+
+<h3>Named Queries</h3>
+- This means that we create the NamedQuery() already inside the entity class. <br>
+- We refer to the entity query name when we want to use. <br>
+
+example: <br>
+link
