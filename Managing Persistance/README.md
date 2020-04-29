@@ -106,9 +106,17 @@ We are also able to query an entity with the entity manager which is an importan
 <br>
 <h2>Creating Queries</h2>
 Documentation: <br>
-https://docs.oracle.com/javaee/7/api/javax/persistence/EntityManager.html#createQuery-java.lang.String- <br>
+<a href="https://docs.oracle.com/javaee/7/api/javax/persistence/EntityManager.html#createQuery-java.lang.String-" target="_blank">https://docs.oracle.com/javaee/7/api/javax/persistence/EntityManager.html#createQuery-java.lang.String-</a><br>
 
 JPQL = Java Persistence Querry language. <br>
+
+Supported operators: <br>
+
+- <, =, >, <=, >=, <><br>
+- IN, NOT IN<br>
+- LIKE, NOT LIKE.<br>
+- BETWEEN & NOT BETWEEN.<br>
+- MEMBER OF, NOT MEMBER OF, IS EMTY & IS NOT EMPTY<br>
 
 Example of use: <br>
 
@@ -116,7 +124,7 @@ Example of use: <br>
 <i>entityManager.createQuery("SELECT e FROM Employee e");</i> <br>
 
 <p>Retrieve records of all employees from a database but with uppercase:<p> <br>
-- LOWER, UPPER, LENGTH are all supported.
+- LOWER, UPPER, LENGTH are all supported. <br>
 <i>entityManager.createQuery("SELECT UPPER(e.empName) from Employee e");</i> <br>
 
 <p>Retrieve records for specific salary:<p> <br>
@@ -142,4 +150,4 @@ query.setParameter(1, salary); <br>
 - We refer to the entity query name when we want to use. <br>
 
 example: <br>
-link
+<a href="https://github.com/KristoferMar/Java-Guide/blob/master/Managing%20Persistance/EntityQueries.java" target="_blank">https://github.com/KristoferMar/Java-Guide/blob/master/Managing%20Persistance/EntityQueries.java</a>
