@@ -96,6 +96,13 @@ Section is found here: <br>
 Documentation: <br>
 <a href="https://docs.oracle.com/javaee/7/api/javax/validation/package-summary.html" target="_blank">https://docs.oracle.com/javaee/7/api/javax/validation/package-summary.html</a><br><br>
 
+<br>
+<h1>Managing Entity Relationships</h1>
+Section is found here: <br>
+<a href="dfg" target="_blank">hdfgdfgdg</a><br><br>
+Documentation: <br>
+<a href="https://docs.oracle.com/javaee/7/api/javax/persistence/package-summary.html" target="_blank">https://docs.oracle.com/javaee/7/api/javax/persistence/package-summary.html</a><br><br>
+
 ### Project setup
 
 #### pom.xml
