@@ -99,7 +99,7 @@ Documentation: <br>
 <br>
 <h1>Managing Entity Relationships</h1>
 Section is found here: <br>
-<a href="dfg" target="_blank">hdfgdfgdg</a><br><br>
+<a href="https://github.com/KristoferMar/Java-Guide/tree/master/Entity%20Relationship" target="_blank">https://github.com/KristoferMar/Java-Guide/tree/master/Entity%20Relationship</a><br><br>
 Documentation: <br>
 <a href="https://docs.oracle.com/javaee/7/api/javax/persistence/package-summary.html" target="_blank">https://docs.oracle.com/javaee/7/api/javax/persistence/package-summary.html</a><br><br>
 
