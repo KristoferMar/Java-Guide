@@ -105,7 +105,6 @@ public class MemberResourceRESTService {
             responseObj.put("error", e.getMessage());
             builder = Response.status(Response.Status.BAD_REQUEST).entity(responseObj);
         }
-
         return builder.build();
     }
     

@@ -1,3 +1,30 @@
+/**
+	FULL Example on how to implement JMS Client 
+ */
+@Inject 
+private JMSContext context; 									// 1. We inject the JMSClient
+
+@Resource(mappedName="java:jboss/jms/queue/helloWorldQueue")
+private Queue todoListQueue; 									// 2. We map a JMS Que with @Resource. This can be found by ls'ing into jboss server.
+
+public void sendMessage(String msg) {
+	try {
+		JMSProducer producer = context.createProducer();		// 3. We create a JMSPrducer inside the try to produce a message.
+		TextMessage message = context.createTextMessage(msg);	// 4. We create a messag using the context.
+		producer.send(todoListQueue, message);					// 5. We produce and send a message to the queue using the producer.
+	} catch(Exception e) {
+		e.printStackTrace();
+	}
+}
+
+
+
+
+
+
+/**
+	Minor individual examples
+ */
 // We use @Resource to map to where our Que is predefined on the server.
 @Resource(mappedName = "java:jboss/jms/queue/helloWorldQueue")
 private Queue helloWorldQueue;
@@ -53,15 +80,12 @@ JMSConsumer consumer = context.createConsumer(helloWorldQueue);         // Creat
 @Resource(lookup = "java:jboss/ConnectionFactory")
 private static ConnectionFactory connectionFactory;
 
-
 // Context
 JMSContext context = connectionFactory.createContext();
-
 
 // Message Producer
 JMSProducer producer = context.createProducer();
 producer.send(dest, message);
-
 
 // Message Consumer 
 JMSConsumer consumer = context.createConsumer(dest);

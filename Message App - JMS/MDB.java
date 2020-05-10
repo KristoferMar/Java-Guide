@@ -1,4 +1,7 @@
-// Reviewing Message Listener Interface
+/**
+	MDB Example
+	Reviewing Message Listener Interface
+ */
 public class QueueListener implements MessageListener {
 
 	private final static Logger LOGGER = Logger.getLogger(this.class.getName());
@@ -21,6 +24,9 @@ public class QueueListener implements MessageListener {
 
 
 
+/**
+	Applied annotation example.
+ */
 // Using annotation to configure an MDB
 // This example can be applied on the example above
 @MessageDriven(name = "QueueListener", activationConfig  = {                                                // @MessageDriven gets a name which is technically optinal. "activationConfig" is required and passes in a set of @ActivationConfigProertiy annotaions.

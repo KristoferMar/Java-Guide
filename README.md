@@ -106,9 +106,16 @@ Documentation: <br>
 <br>
 <h1>Messaging Applications with JMS</h1>
 Section is found here: <br>
-<a href="dfg" target="_blank">hdfgdfgdg</a><br><br>
+<a href="https://github.com/KristoferMar/Java-Guide/tree/master/Message%20App%20-%20JMS" target="_blank">https://github.com/KristoferMar/Java-Guide/tree/master/Message%20App%20-%20JMS</a><br><br>
 Documentation: <br>
-<a href="fasdfasdf" target="_blank">fasdfasdf</a><br><br>
+<a href="https://docs.oracle.com/javaee/7/api/javax/jms/package-summary.html" target="_blank">https://docs.oracle.com/javaee/7/api/javax/jms/package-summary.html</a><br><br>
+
+<br>
+<h1>Securing Java EE Applications</h1>
+Section is found here: <br>
+<a href="sdfasdf" target="_blank">fasdfasd</a><br><br>
+Documentation: <br>
+<a href="https://docs.oracle.com/javaee/7/api/javax/annotation/security/package-summary.html" target="_blank">https://docs.oracle.com/javaee/7/api/javax/annotation/security/package-summary.html</a><br><br>
 
 ### Project setup
 
