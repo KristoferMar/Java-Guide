@@ -44,7 +44,7 @@ Resolve all project dependencies <br>
 <br>
 <h1>Enterprise Java Beans</h1>
 Section is found here: <br>
-<a href="asdfasdf" target="_blank">asdfasdf</a><br><br>
+<a href="https://github.com/KristoferMar/Java-Guide/tree/master/Enterprise%20Java%20Beans" target="_blank">https://github.com/KristoferMar/Java-Guide/tree/master/Enterprise%20Java%20Beans</a><br><br>
 Documentation: <br>
 <a href="asdfasadf" target="_blank">asdfasdf</a><br><br>
 
