@@ -113,7 +113,7 @@ Documentation: <br>
 <br>
 <h1>Securing Java EE Applications</h1>
 Section is found here: <br>
-<a href="sdfasdf" target="_blank">fasdfasd</a><br><br>
+<a href="https://github.com/KristoferMar/Java-Guide/tree/master/Securing%20Java%20EE%20Applications" target="_blank">https://github.com/KristoferMar/Java-Guide/tree/master/Securing%20Java%20EE%20Applications</a><br><br>
 Documentation: <br>
 <a href="https://docs.oracle.com/javaee/7/api/javax/annotation/security/package-summary.html" target="_blank">https://docs.oracle.com/javaee/7/api/javax/annotation/security/package-summary.html</a><br><br>
 
