@@ -9,6 +9,7 @@ Security annotations: <br>
 - Located at the beginning of the class.
 - This annotation defines the security domain by name to use for the EJB. 
 <h4>@DeclareRoles</h4>
+- Located in the beginning of the class.
 - Defines the roles that are tested for permissions in the class. 
 - If this annotation is not used, the roles are checked based on the presence of the @RolesAllowed annotations.  
 <h4>@RolesAllowed</h4>

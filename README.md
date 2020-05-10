@@ -41,6 +41,14 @@ Compile the source code of the project
 Resolve all project dependencies <br>
 <b><i>mvn dependency:resolve</i></b>
 
+<br>
+<h1>Enterprise Java Beans</h1>
+Section is found here: <br>
+<a href="asdfasdf" target="_blank">asdfasdf</a><br><br>
+Documentation: <br>
+<a href="asdfasadf" target="_blank">asdfasdf</a><br><br>
+
+
 # JAX-RS
 
 JAX-RS: Java API for RESTful Web Services (JAX-RS) is a java programming language API spec that provides support in creating web services according to the REST architectural pattern. <br>
