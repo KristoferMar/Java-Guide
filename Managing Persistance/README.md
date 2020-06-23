@@ -20,7 +20,7 @@
 - Your id must be some type of mutable type and there are 4 types to do that. <br>
     - @GeneratedValue(GenerationType.AUTO) --> Default strategy. <br>
     - @GeneratedValue(GenerationType.SEQUENCE) <br>
-    - @GeneratedValue(GenerationType.IDENTITY) --> uses the database identity column. <br>
+    - @GeneratedValue(GenerationType.IDENTITY) --> uses the database identity column. = unique identifier field. <br>
     - @GeneratedValue(GenerationType.TABLE) --> Here you pull a number of items from the database to generate your value. <br>
 
 <br>
@@ -132,15 +132,15 @@ Example of use: <br>
 
 <h3>Dynamic query types</h3>
 <h4>Named Parameters in Queries</h4>
-- We are able to specify a veriable name which can be used in a query and changed dynamically <br>
-- We create a query variable with ":variable" and afterwards we have to set the parameter for the veriable below. See example. <br>
+- We are able to specify a variable name which can be used in a query and changed dynamically <br>
+- We create a query variable with ":variable" and afterwards we have to set the parameter for the variable below. See example. <br>
 Example: <br>
 Query query=entityManager.createQuery("SELECT e from Employee e where e.salary >:sal"); <br>
 query.setParameter("sal", salary);<br><br>
 
 <h4>Positional Parameters in Queries</h4>
-- We are able to specify a veriable position which can be used in a query and changed dynamically <br>
-- We create a query position variable with "?1", "?2", ... and afterwards we have to set the parameter for the veriable below. See example. <br>
+- We are able to specify a variable position which can be used in a query and changed dynamically <br>
+- We create a query position variable with "?1", "?2", ... and afterwards we have to set the parameter for the variable below. <br>
 Example: <br>
 Query query=entityManager.createQuery("SELECT e from Employee e where e.salary >?1"); <br>
 query.setParameter(1, salary); <br>
@@ -151,3 +151,7 @@ query.setParameter(1, salary); <br>
 
 example: <br>
 <a href="https://github.com/KristoferMar/Java-Guide/blob/master/Managing%20Persistance/EntityQueries.java" target="_blank">https://github.com/KristoferMar/Java-Guide/blob/master/Managing%20Persistance/EntityQueries.java</a>
+
+<h3>Extra</h3>
+If MySQLDS is configured in JBoss you can often find it with following path: <br>
+<i>less /opt/eap/standalone/configuration/\standalone-full.xml</i><br>
