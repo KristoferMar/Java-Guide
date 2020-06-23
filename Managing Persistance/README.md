@@ -77,8 +77,8 @@ Documentation: <br>
 https://docs.oracle.com/javaee/7/api/javax/persistence/EntityManager.html <br> <br>
 
 - The Entity Manger handles all our CRUD opperations.
-- The entity mangager can be created in the following ways but it's easiest to creat it thorugh CDI:
-- We use the netity manger on entities.
+- The entity manager can be created in the following ways but it's easiest to creat it thorugh CDI:
+- We use the entity manger on entities.
 
 <h3>EntityManager methods</h3>
 <h4>persist()</h4>
