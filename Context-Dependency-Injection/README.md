@@ -28,7 +28,7 @@ Lives for the length of time which you user is interacting with the application 
 - @SessionScope
 
 <h3>Conversation Scope</h3>
-Spans though multiple requests but spans shorter tahn a session. <br>
+Spans though multiple requests but spans shorter than a session. <br>
 - This is like a shopping cart, you can add items and pay which ends the scope but you will still be logged into the app (session scope.). <br>
 - You get to start and end the conversation on by yourself the developer. <br>
 - @ConversationScope
