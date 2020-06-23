@@ -41,7 +41,18 @@ Compile the source code of the project
 Resolve all project dependencies <br>
 <b><i>mvn dependency:resolve</i></b>
 
-# JAX-RS
+<br>
+<h1>Enterprise Java Beans</h1>
+Section is found here: <br>
+<a href="https://github.com/KristoferMar/Java-Guide/tree/master/Enterprise%20Java%20Beans" target="_blank">https://github.com/KristoferMar/Java-Guide/tree/master/Enterprise%20Java%20Beans</a><br><br>
+Documentation: <br>
+<a href="asdfasadf" target="_blank">asdfasdf</a><br><br>
+Life cykle documentation: <br>
+<a href="https://docs.oracle.com/javaee/7/api/javax/annotation/package-summary.html" target="_blank">https://docs.oracle.com/javaee/7/api/javax/annotation/package-summary.html</a><br><br>
+
+
+
+<h1>JAX-RS</h1>
 
 JAX-RS: Java API for RESTful Web Services (JAX-RS) is a java programming language API spec that provides support in creating web services according to the REST architectural pattern. <br>
 
@@ -113,7 +124,7 @@ Documentation: <br>
 <br>
 <h1>Securing Java EE Applications</h1>
 Section is found here: <br>
-<a href="sdfasdf" target="_blank">fasdfasd</a><br><br>
+<a href="https://github.com/KristoferMar/Java-Guide/tree/master/Securing%20Java%20EE%20Applications" target="_blank">https://github.com/KristoferMar/Java-Guide/tree/master/Securing%20Java%20EE%20Applications</a><br><br>
 Documentation: <br>
 <a href="https://docs.oracle.com/javaee/7/api/javax/annotation/security/package-summary.html" target="_blank">https://docs.oracle.com/javaee/7/api/javax/annotation/security/package-summary.html</a><br><br>
 

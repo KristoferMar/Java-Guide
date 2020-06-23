@@ -12,8 +12,8 @@ Private EmailValidator emailValidator;<br><br>
 <h2>Qualifier</h2>
 An qualifier is how we create our own anotation which can be added as extra information above @inject to specify what it is that we are injecting. <br>
 An example can be found here: <br>
-<a href="https://github.com/KristoferMar/Java-Guide/blob/master/Context-Dependency-Injection/Dependency-Injection/Title.java
-" target="_blank">https://github.com/KristoferMar/Java-Guide/blob/master/Context-Dependency-Injection/Dependency-Injection/Title.java</a><br>
+<a href="https://github.com/KristoferMar/Java-Guide/tree/master/Context-Dependency-Injection/Dependency-Injection
+" target="_blank">https://github.com/KristoferMar/Java-Guide/tree/master/Context-Dependency-Injection/Dependency-Injection</a><br>
 
 <h1>Contexts </h1>
 

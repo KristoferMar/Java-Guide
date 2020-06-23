@@ -20,7 +20,7 @@ public class HelloWorld {
     ...implementation omitted...
   }
 
-  @RolesAllowed("admin")
+  @RolesAllowed({"admin"})
   @POST
   @Consumes(MediaType.APPLICATION_JSON)
   public String savePerson(Person person) {
