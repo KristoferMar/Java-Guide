@@ -2,6 +2,8 @@
 
 We use JMS to create, use and orcistrate a message que in diffent kinds of applications. JMS Conists of multiple components and subcombonents which all come together to form a system with the intention to reade, write and handle tasks from a que. <br>
 
+In Java Message Driven Applications you will need to find the JNDI which often is the jms-queue which you que messages in and read from. It's often located in '/opt/eap/standalone/configuration/Standalone-full.xml'. Here you can find <jms-queue configured and see the name of the que. <br>
+
 Below we find the components which JMS consists of. <br>
 
 <h2>JMS Client</h2>
