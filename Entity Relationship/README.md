@@ -16,7 +16,9 @@ Multi-valued, where many rows in table X can be related to one or many rows in t
 <h4>@JoinColumn</h4>
 Defines the column that JPA uses as the foreign key.<br>
 
-A complex example of how we can create a relation between entities can be found by looking at the four java classes Make, Model, SubModel and Car in this folder. <br>
+A complex example of how we can create a relation between entities can be found by looking at the four java classes Make, Model, SubModel and Car in this folder. <br><br>
+
+IMPORTANT! - Always remember to @JoinColumn(name="entity_id") at your destination. Which means that in the end of OneToOne or ManyToOne you always need to joinColumn. <br>
 
 <h2> Lazy-Loading </h2>
 It's not always necessary to get all data related to an entity if the user only is searching for parts of data. Therefore we can make use of lazy-loading to load only parts of data when needed. <br> <br>
