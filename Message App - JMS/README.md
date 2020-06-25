@@ -42,7 +42,7 @@ fsdfsfsdf <br>
 Example: <br>
 fssfsdfsdf <br>
 
-<h2>Components of a JMS Message<h2>
+<h2>Components of a JMS Message</h2>
 Documentation: <br>
 https://docs.oracle.com/javaee/7/api/javax/jms/Message.html
 
