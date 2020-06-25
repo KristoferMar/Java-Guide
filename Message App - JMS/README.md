@@ -6,7 +6,7 @@ Below we find the components which JMS consists of. <br>
 
 <h2>JMS Client</h2>
 
-JMS Clients are Java programs or applications taht send or receive messages. <br>
+JMS Clients are Java programs or applications that send or receive messages. <br>
 It uses <br>
 
 <h3>Connection Factory</h3>
