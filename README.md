@@ -2,7 +2,7 @@
 
 Java, Maven, Redhat, JBoss and more is explained in this section. <br>
 
-Official documentation, also used in the RedHat Exam: <br>
+Official documentation <br>
 https://docs.oracle.com/javaee/7/api/toc.htm
 
 ## Programming language
