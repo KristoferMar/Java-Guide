@@ -54,7 +54,7 @@ Life cykle documentation: <br>
 <br>
 <h1>JAX-RS</h1>
 Section can be found here: <br>
-<a href="dfsdfsdf" target="_blank">sdfsdf</a><br><br>
+<a href="https://github.com/KristoferMar/Java-Guide/tree/master/JAX-RS" target="_blank">https://github.com/KristoferMar/Java-Guide/tree/master/JAX-RS</a><br><br>
 Documentation: <br>
 Inject: <br>
 <a href="sdfsdfsdf" target="_blank">sdfsdfsf</a><br><br>
