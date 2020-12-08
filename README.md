@@ -11,6 +11,10 @@ https://docs.oracle.com/javaee/7/api/toc.htm
 
 final : Variable is final and CAN'T be modified. <br>
 
+<h1>Java Basics</h1>
+Section on the basics can be found here:<br>
+https://github.com/KristoferMar/Java-Guide/tree/master/Basics_Java
+
 ## Maven
 
 Apache Maven is a build automation tool for Java projects. It helps us building Java projects with dependencies and special build requirements.
