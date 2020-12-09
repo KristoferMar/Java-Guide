@@ -80,7 +80,10 @@ sfsdfsdf <br>
 <h2>Queue Manager (QM)</h2>
 It is the process of managing and optimizes queues to improve end-user waiting times and teammate productivity. <br>
 
-- It sends messages eather unidirectinally or biderectinally. <br>
+Message channels: <br>
+- It sends messages unidirectinally. <br>
 - QM's create connections via MCA's. <br> 
+- MCA 1 and 2 has to have the same types and they need to communicate on the same channel (both configured to A) <br>
+- Eventually two QM's will become a pair <br>
 
 ![GitHub Logo](https://github.com/KristoferMar/Java-Guide/blob/master/Message%20App%20-%20JMS/Screenshot%202020-12-09%20at%203.00.19%20PM.png)
