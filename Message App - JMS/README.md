@@ -76,3 +76,9 @@ sfsdfsdf <br>
 - destinationType <br>
 - messageSelector <br>
 - acknowledgeMode <br>
+
+<h2>Queue Manager (QM)</h2>
+It is the process of managing and optimizes queues to improve end-user waiting times and teammate productivity. <br>
+
+- It sends messages eather unidirectinally or biderectinally. <br>
+- QM's create connections via MCA's. <br> 
