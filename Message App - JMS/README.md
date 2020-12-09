@@ -82,3 +82,5 @@ It is the process of managing and optimizes queues to improve end-user waiting t
 
 - It sends messages eather unidirectinally or biderectinally. <br>
 - QM's create connections via MCA's. <br> 
+
+![GitHub Logo](https://github.com/KristoferMar/Java-Guide/blob/master/Message%20App%20-%20JMS/Screenshot%202020-12-09%20at%203.00.19%20PM.png)
