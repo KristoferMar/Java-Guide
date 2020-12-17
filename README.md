@@ -78,7 +78,7 @@ Inject: <br>
 Section is found here: <br>
 <a href="https://github.com/KristoferMar/Java-Guide/tree/master/Managing%20Persistance" target="_blank">https://github.com/KristoferMar/Java-Guide/tree/master/Managing%20Persistance</a><br><br>
 Documentation: <br>
-<a href="https://docs.oracle.com/javaee/7/api/javax/validation/package-summary.html" target="_blank">https://docs.oracle.com/javaee/7/api/javax/validation/package-summary.html</a><br>
+<a href="https://docs.oracle.com/javaee/7/api/javax/validation/package-summary.html" target="_blank">https://docs.oracle.com/javaee/7/api/javax/validation/package-summary.html</a><br><br>
 Content:<br>
 - EntityManager <br><br>
 
