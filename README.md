@@ -103,7 +103,19 @@ Section is found here: <br>
 Documentation: <br>
 <a href="https://docs.oracle.com/javaee/7/api/javax/annotation/security/package-summary.html" target="_blank">https://docs.oracle.com/javaee/7/api/javax/annotation/security/package-summary.html</a><br><br>
 
-### Project setup
+<br>
+<h1>Testing</h1>
+Why do we test? <br>
+Testing your code teaches you how to write good code because you have to fix all of your bad code. <br><br>
+We have multilpe ways in which we can test our code.
+<br>
+<h2>JUnit test</h2>
+JUnit is a Regression Testing Framework used by developers to implement unit testing in Java, and accelerate programming speed and increase the quality of code. <br><br>
+https://www.tutorialspoint.com/junit/junit_test_framework.htm<br>
+
+
+<br>
+<h3> Project setup </h3>
 
 #### pom.xml
 
