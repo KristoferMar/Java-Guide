@@ -10,10 +10,11 @@ for (int i = 0; i < 5; i++) {
 '''
 <br>
 <p>for-each Loop</p>
-```for (type variableName : arrayName) {
+```java
+for (type variableName : arrayName) {
   // code block to be executed
 }
-``` 
+```
 <br>
 Details: <br>
 https://www.w3schools.com/java/java_for_loop.asp
