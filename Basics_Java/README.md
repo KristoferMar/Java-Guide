@@ -3,11 +3,11 @@
 <h2>Basics</h2>
 <h4>Java For loop</h4>
 For loop: <br>
-```
+'''
 for (int i = 0; i < 5; i++) {
   System.out.println(i);
 }
-``` 
+'''
 <br>
 <p>for-each Loop</p>
 ```
