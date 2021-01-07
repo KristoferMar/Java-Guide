@@ -10,8 +10,7 @@ for (int i = 0; i < 5; i++) {
 '''
 <br>
 <p>for-each Loop</p>
-```
-for (type variableName : arrayName) {
+```for (type variableName : arrayName) {
   // code block to be executed
 }
 ``` 
