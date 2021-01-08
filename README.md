@@ -1,5 +1,11 @@
 # Java-Guide
 
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
+
 Java, Maven, Redhat, JBoss and more is explained in this section. <br>
 
 Official documentation <br>

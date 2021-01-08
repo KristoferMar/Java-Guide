@@ -15,11 +15,6 @@ for (type variableName : arrayName) {
   // code block to be executed
 }
 ```
-```
-function test() {
-  console.log("notice the blank line before this function?");
-}
-```
 <br>
 Details: <br>
 https://www.w3schools.com/java/java_for_loop.asp
