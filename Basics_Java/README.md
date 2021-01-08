@@ -27,8 +27,7 @@ Java list inherits the Collection interface, and the implementation classes of L
 - The Java ListIterator interface can used to traverse the element in a backward and forward direction. <br>
 <br>
 Example: <br>
-
-
+https://github.com/KristoferMar/Java-Guide/blob/master/Basics_Java/Java_Classes/List.java 
 
 <h3>Java Iterator</h3>
 It's an object that can be used to loop through collections, like ArrayList and HashSet. It is called an "iterator" because "iterating" is the technical term for looping. <br>
