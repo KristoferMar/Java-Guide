@@ -15,6 +15,7 @@ for (type variableName : arrayName) {
   // code block to be executed
 }
 </pre>
+<br>
 Details: <br>
 https://www.w3schools.com/java/java_for_loop.asp
 
