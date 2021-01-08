@@ -18,14 +18,15 @@ for (type variableName : arrayName) {
 Details: <br>
 https://www.w3schools.com/java/java_for_loop.asp
 
+
 <!-- Java Classes -->
 <h2>Java Classes</h2>
 <h3>Java Iterator</h3>
 It's an object that can be used to loop through collections, like ArrayList and HashSet. It is called an "iterator" because "iterating" is the technical term for looping. <br>
 - hasNext() and next() are used to loop through a collection <br>
 - remove() is used to remove items from collection <br>
-More info: <br>
-https://www.w3schools.com/java/java_iterator.asp 
+Example: <br>
+https://github.com/KristoferMar/Java-Guide/blob/master/Basics_Java/Java_Classes/Iterator.java
 
 
 <br>
