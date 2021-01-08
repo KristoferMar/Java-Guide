@@ -9,12 +9,11 @@ For loop: <br>
   }
 </pre>
 <p>for-each Loop</p>
-```java
+<pre>
 for (type variableName : arrayName) {
   // code block to be executed
 }
-```
-<br>
+</pre>
 Details: <br>
 https://www.w3schools.com/java/java_for_loop.asp
 
