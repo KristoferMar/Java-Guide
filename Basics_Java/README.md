@@ -3,12 +3,11 @@
 <h2>Basics</h2>
 <h4>Java For loop</h4>
 For loop: <br>
-  <pre>
-    for (int i = 0; i < 5; i++) {
-      System.out.println(i);
-    }
-  </pre>
-<br>
+<pre>
+  for (int i = 0; i < 5; i++) {
+    System.out.println(i);
+  }
+</pre>
 <p>for-each Loop</p>
 ```java
 for (type variableName : arrayName) {
