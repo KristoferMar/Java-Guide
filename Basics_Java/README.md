@@ -21,6 +21,13 @@ https://www.w3schools.com/java/java_for_loop.asp
 
 <!-- Java Classes -->
 <h2>Java Classes</h2>
+<h3>Java StringBuilder</h3>
+It's used to create a mutable (modifiable) string. The Java StringBuilder class is same as StringBuffer class except that it is non-synchronized. <br>
+- It's part of the java.lang libraray. <br>
+<h4>Methods</h4>
+append(String s)             : used to append(add) the specified string with this string. <br>
+insert(int offset, String s) : used to insert the specified string with this string at the specified position. <br>
+
 <h3>Java List</h3>
  It facilities us the option to create an ordered collection. It contains the index-based methods to insert, update, delete and search the elements. It can have the dublicate elements also. We can also store the null element in the list. <br>
 - Java list inherits the Collection interface, and the implementation classes of List is "ArrayList", "LinkedList", "Stack" and "Vector. <br>
