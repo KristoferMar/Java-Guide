@@ -1,7 +1,8 @@
 <h1>Java Basics</h1>
 
+<!-- Java Basics -->
 <h2>Basics</h2>
-<h4>Java For loop</h4>
+<h3>Java For loop</h3>
 For loop: <br>
 <pre>
   for (int i = 0; i < 5; i++) {
@@ -17,8 +18,18 @@ for (type variableName : arrayName) {
 Details: <br>
 https://www.w3schools.com/java/java_for_loop.asp
 
+<!-- Java Classes -->
+<h2>Java Classes</h2>
+<h3>Java Iterator</h3>
+It's an object that can be used to loop through collections, like ArrayList and HashSet. It is called an "iterator" because "iterating" is the technical term for looping. <br>
+- hasNext() and next() are used to loop through a collection <br>
+- remove() is used to remove items from collection <br>
+More info: <br>
+https://www.w3schools.com/java/java_iterator.asp 
+
+
 <br>
-<h3>Operators</h3>
+<h2>Operators</h2>
 <h4>Double colon (::) operator in Java</h4>
 The Double colon (::) operator also known as method reference operator in Java, is used to call a method by refering to it with the help of its class directly.<br><br>
 example:<br>
