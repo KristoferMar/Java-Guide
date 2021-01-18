@@ -29,6 +29,13 @@ Run All Test Methods <br>
 Validates project correcly and makes sure all necessary information is available. It also makes sure the dependencies are downloaded. <br>
 <b><i>mvn validate</i></b>
 
+Maven creates the build reult in the target folder. <br>
+<b><i>mvn install</i></b>
+
+To ensure that the build target is removed before a new build, add the clean target <br>
+<b><i>mvn clean install</i></b>
+
+
 Run a Single Unit Test <br>
 <b><i>mvn -Dtest=UsersServiceImpl#testCreateUser test</i></b>
 
