@@ -17,9 +17,10 @@ Let's see the example of a parameterized query: <br>
 <i>String sql="insert into emp values(?,?,?)";</i><br>
 
 As you can see, we are passing parameter (?) for the values. It's value will be set by calling the setter methods of PreparedStatement. <br>
-<h3>Why do we use it? <h3>
+<h3>Why do we use it? </h3>
 <b>Improves performance:</b> The performance of the application will be faster if you use PreparedStatement interface because query is compiled only once.<br>
 
 Examples: <br>
+https://github.com/KristoferMar/Java-Guide/blob/master/Java_JDBC/PreparedStatement.java
 
 
