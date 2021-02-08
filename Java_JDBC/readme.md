@@ -21,11 +21,7 @@ As you can see, we are passing parameter (?) for the values. It's value will be 
 <b>Improves performance:</b> The performance of the application will be faster if you use PreparedStatement interface because query is compiled only once.<br>
 
 Examples: <br>
-<<<<<<< HEAD
 https://github.com/KristoferMar/Java-Guide/blob/master/Java_JDBC/PreparedStatement.java <br>
-=======
-https://github.com/KristoferMar/Java-Guide/blob/master/Java_JDBC/PreparedStatement.java
->>>>>>> 7120e99b1f587f0600d84f43def0badd37b4bb62
 
 <h3>Practical information</h3>
 When execute a preparedStatement you have to bare in mind what kind of execution method to use. <br>
