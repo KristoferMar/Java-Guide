@@ -39,7 +39,7 @@ if (condition1) {
 }
 </pre>
 
-<h2>Ternary operator</h2>
+<h4>Ternary operator</h4>
 We use the ternary operator to create an inline ifstatement. <br>
 <pre>
 variable = (condition) ? expressionTrue :  expressionFalse;
