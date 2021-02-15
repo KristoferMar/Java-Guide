@@ -2,6 +2,59 @@
 
 <!-- Java Basics -->
 <h2>Basics</h2>
+
+<h3>If...Else</h3>
+Java conditions and if statments used to perform different actions<br>
+- Less than: a < b <br>
+- Less than or equal to: a <= b <br>
+- Greater than: a > b <br>
+- Greater than or equal to: a >= b <br>
+- Equal to: a == b <br>
+- Not Equal to: a != b <br>
+
+<br>
+Java has the following conditional statements<br>
+- Use <i>if</i> to specify a block of code to be executed, if a specified condition is true <br>
+- Use <i>else</i> to specify a block of code to be executed, if the same condition is false <br>
+- Use <i>else if</i> to specify a new condition to test, if the first condition is false <br>
+- Use <i>switch</i> to specify many alternative blocks of code to be executed <br>
+<br>
+
+If condition is true this will execute <br>
+<pre>
+if (condition) {
+  // block of code to be executed if the condition is true
+}
+</pre>
+
+<br>
+If, else if, else statement example <br>
+<pre>
+if (condition1) {
+  // block of code to be executed if condition1 is true
+} else if (condition2) {
+  // block of code to be executed if the condition1 is false and condition2 is true
+} else {
+  // block of code to be executed if the condition1 is false and condition2 is false
+}
+</pre>
+
+<h2>Ternary operator</h2>
+We use the ternary operator to create an inline ifstatement. <br>
+<pre>
+variable = (condition) ? expressionTrue :  expressionFalse;
+</pre><br>
+Example<br>
+<pre>
+int time = 20;
+String result = (time < 18) ? "Good day." : "Good evening.";
+System.out.println(result);
+</pre>
+
+
+
+
+
 <h3>Java For loop</h3>
 For loop: <br>
 <pre>
