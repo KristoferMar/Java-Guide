@@ -152,6 +152,31 @@ query.setParameter(1, salary); <br>
 example: <br>
 <a href="https://github.com/KristoferMar/Java-Guide/blob/master/Managing%20Persistance/EntityQueries.java" target="_blank">https://github.com/KristoferMar/Java-Guide/blob/master/Managing%20Persistance/EntityQueries.java</a>
 
+
+<br>
+<h2>Java Transaction API (JTA)</h2>
+There are two ways in which we can handle transactions. <br>
+<h3>Bean Managed Transactions (BMT)</h3>
+Here we as developers take complete control of the transactions and handle every signle aspect of it meaning we manually control the entity states that are used towards and in the database. <br>
+
+<h3>Container Managed Transactions (CMT) </h3>
+The container will take care of the entire transaction and all entity states for a given method. <br>
+We do not need provide CMT's with @TransactionManagement annotation but reather we use "@TransactionAttribute(TransactionAttributeType.VALUE)" to determine how the mothod's transactions should be handled by the container. <br>
+There are serveral atributes we can apply on the @TransactionAttribute annotation to tell the container how we want it to manage our transactions. <br>
+<h4>MANDATORY</h4>
+A() --> B(): Method A will create a transactions before it calls B. If no transactional context the container will throw Exception. <br>
+<h4>REQURED</h4>
+A() --> B(): We need a transaction before method A call method B. If there is no transaction the container will create one <br>
+<h4>REQURED_NEW</h4>
+A() --> B(): If client already have a transaction it will be suspended and a new transaction will be created. <br>
+<h4>SUPPORTS</h4>
+A() --> B(): Supports a transaction - It can both create new and use existing transactions. <br>
+<h4>NOT_SUPPORTS</h4>
+A() --> B(): Tells the container that method B() does not support transactions. It will disable all transactions until B() finishes it's thing <br>
+<h4>NEVER</h4>
+A() --> B(): If we try to call B() with a transaction the container will throw an exception <br>
+
+
 <h3>Extra</h3>
 If MySQLDS is configured in JBoss you can often find it with following path: <br>
 <i>less /opt/eap/standalone/configuration/\standalone-full.xml</i><br>
