@@ -176,7 +176,11 @@ A() --> B(): Tells the container that method B() does not support transactions. 
 <h4>NEVER</h4>
 A() --> B(): If we try to call B() with a transaction the container will throw an exception <br>
 
+Entity States info:<br>
+https://jstobigdata.com/jpa/different-states-of-an-object-in-jpa/ <br>
 
+
+<br>
 <h3>Extra</h3>
 If MySQLDS is configured in JBoss you can often find it with following path: <br>
 <i>less /opt/eap/standalone/configuration/\standalone-full.xml</i><br>
