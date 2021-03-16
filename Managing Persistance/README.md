@@ -179,6 +179,8 @@ A() --> B(): If we try to call B() with a transaction the container will throw a
 Entity States info:<br>
 https://jstobigdata.com/jpa/different-states-of-an-object-in-jpa/ <br>
 
+Transactions info: <br>
+https://docs.jboss.org/teiid/7.6.0.Final/client-developers-guide/en-US/html/jdbc_transactions.html<br>
 
 <br>
 <h3>Extra</h3>
