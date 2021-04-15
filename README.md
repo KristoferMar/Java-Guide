@@ -40,10 +40,10 @@ To ensure that the build target is removed before a new build, add the clean tar
 <h4>How to install</h4>
 - Navigate to the pom press "command + N" and press "dependency". <br>
 - search for the dependency you are looking for and press "add". <br>
-- Refresh the project by rightclick on root folder <br>
+- Refresh the project by rightclick on root folder <br><br>
 Documentation:<br>
-https://www.jetbrains.com/help/idea/work-with-maven-dependencies.html#generate_maven_dependency
-
+https://www.jetbrains.com/help/idea/work-with-maven-dependencies.html#generate_maven_dependency <br>
+<br>
 Run a Single Unit Test <br>
 <b><i>mvn -Dtest=UsersServiceImpl#testCreateUser test</i></b>
 
