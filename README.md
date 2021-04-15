@@ -37,7 +37,7 @@ To ensure that the build target is removed before a new build, add the clean tar
 <b><i>mvn clean install</i></b>
 
 <h3>Maven Dependecies</h3>
-<h4>How to install</h4>
+<h4>How to install (Intellij)</h4>
 - Navigate to the pom press "command + N" and press "dependency". <br>
 - search for the dependency you are looking for and press "add". <br>
 - Refresh the project by rightclick on root folder <br><br>
