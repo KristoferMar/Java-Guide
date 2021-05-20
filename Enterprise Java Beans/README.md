@@ -1,7 +1,7 @@
 <h1>Enterprise Java Beans</h1>
 
 There are two kinds of beans. <br>
-1. Session: Usally an application's core business logic is exposed as high-level API.<br>
+1. Session: Usally an application's core business logic is exposed as high-level API. The three types of session beans are Stateless EJB's, Statefull EJBs and Singleton EJBs<br>
 2. Message Driven Bean (MDB): Used for asyncronous communication between components in a java EE application and can be used to receive Java Message Service (JMS) messages. <br>
 
 <h2>Session Beans</h2>
