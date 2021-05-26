@@ -2,7 +2,7 @@ package variables;
 
 public class program {
 	
-	public static void main(String[] args) {
+	public static void nonmain(String[] args) {
 		
 		// Implicit casting
 		int x1 = 65;

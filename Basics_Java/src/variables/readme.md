@@ -37,3 +37,6 @@ The 8 primitive types in Java are
 
 <h3>Explicit Casting</h3>
 - Larger to smaller --> narrowing conversion <br>
+
+Variable type casting example <br>
+https://github.com/KristoferMar/Java-Guide/blob/master/Basics_Java/src/variables/program.java
