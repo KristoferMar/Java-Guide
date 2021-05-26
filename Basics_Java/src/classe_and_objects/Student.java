@@ -1,16 +1,18 @@
-package ClassesAndObjects;
+package classe_and_objects;
 
 public class Student {
 	
 	private int studentId;
 	private String name;
+	private char lastGrade = 'A';
 	
 	public Student() {
 	}
 	
-	public Student(int studentId, String name) {
+	public Student(int studentId, String name, char lastGrade) {
 		this.studentId = studentId;
 		this.name = name;
+		this.setLastGrade(lastGrade);
 	}
 		
 	public int GetStudentId() {
@@ -29,6 +31,14 @@ public class Student {
 		this.name = name;
 	}
 	
+	public char getLastGrade() {
+		return lastGrade;
+	}
+	
+	public void setLastGrade(char lastGrade) {
+		this.lastGrade = lastGrade;
+	}
+	
 	public void ReadABook() {
 		if(this.name != null) {
 			System.out.println(this.name + " just started reading a book");			
@@ -36,4 +46,5 @@ public class Student {
 			System.out.println("Student does not have a name");
 		}
 	}
+
 }

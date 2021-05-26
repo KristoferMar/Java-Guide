@@ -1,4 +1,4 @@
-package ClassesAndObjects;
+package classe_and_objects;
 
 public class program {
 	
