@@ -38,5 +38,12 @@ The 8 primitive types in Java are
 <h3>Explicit Casting</h3>
 - Larger to smaller --> narrowing conversion <br>
 
+<br>
 Variable type casting example <br>
 https://github.com/KristoferMar/Java-Guide/blob/master/Basics_Java/src/variables/program.java
+
+
+<h1>Reference types</h1>
+- Reference types are types that refere to something. 
+- When you initialize an instance of a student object, you are creating a reference type.
+- Objects are stored in the heap in the memory.

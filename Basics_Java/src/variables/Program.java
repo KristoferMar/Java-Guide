@@ -1,6 +1,6 @@
 package variables;
 
-public class program {
+public class Program {
 	
 	public static void nonmain(String[] args) {
 		
@@ -18,6 +18,8 @@ public class program {
 		
 		System.out.println(x);
 		
+		Array arrayTest = new Array();
+		arrayTest.Arrays();
+		
 	}
-
 }

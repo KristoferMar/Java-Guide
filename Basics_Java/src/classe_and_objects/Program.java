@@ -1,6 +1,6 @@
 package classe_and_objects;
 
-public class program {
+public class Program {
 	
 	public static void nonmain(String[] args) {
 		
