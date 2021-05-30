@@ -14,7 +14,7 @@ public class Program {
 	 * - Methods can be overloaded just like a constructur by taking in multiple amount of parameters
 	 */
 	
-	public static void main(String[] args) {
+	public static void nonmain(String[] args) {
 		System.out.println(Sum(2,3));
 	}
 	
