@@ -1,7 +1,7 @@
 public class main {
 
     // Create
-    public static void main(String[] args) {
+    public static void nonmain(String[] args) {
 
         //Creating a List of type String using ArrayList  
         List<String> list=new ArrayList<String>();  

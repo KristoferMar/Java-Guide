@@ -1,10 +1,5 @@
-RestAPI: Assortment of technologies including Arquillian
+Java rest API using jax-rs
 ========================
-Author: Pete Muir
-Level: Intermediate
-Technologies: CDI, JSF, JPA, EJB, JPA, JAX-RS, BV
-Summary: An example that incorporates multiple technologies
-Target Product: EAP
 Source: <https://github.com/jboss-jdf/jboss-as-quickstart/>
 
 What is it?

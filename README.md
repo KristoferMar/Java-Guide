@@ -15,6 +15,7 @@ final : Variable is final and CAN'T be modified. <br>
 Section on the basics can be found here:<br>
 https://github.com/KristoferMar/Java-Guide/tree/master/Basics_Java <br>
 
+
 <br>
 <h2>Maven</h2>
 
@@ -35,12 +36,21 @@ Maven creates the build reult in the target folder. <br>
 To ensure that the build target is removed before a new build, add the clean target <br>
 <b><i>mvn clean install</i></b>
 
-
+<h3>Maven Dependecies</h3>
+<h4>How to install (Intellij)</h4>
+- Navigate to the pom press "command + N" and press "dependency". <br>
+- search for the dependency you are looking for and press "add". <br>
+- Refresh the project by rightclick on root folder <br><br>
+Documentation:<br>
+https://www.jetbrains.com/help/idea/work-with-maven-dependencies.html#generate_maven_dependency <br>
+<br>
 Run a Single Unit Test <br>
 <b><i>mvn -Dtest=UsersServiceImpl#testCreateUser test</i></b>
 
 More info: <br>
 http://www.appsdeveloperblog.com/running-a-single-unit-test-with-maven/
+
+
 
 ### Project
 

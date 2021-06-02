@@ -1,7 +1,13 @@
 <h1>Enterprise Java Beans</h1>
 
+<h2>What is it and why do we use it?</h2>
+
+- Written in the Java programming language, an enterprise bean is a server-side component that encapsulates the business logic of an application. The business logic is the code that fulfills the purpose of the application <br>
+- The EJB container provides system-level services to enterprise beans, the bean developer can concentrate on solving business problems. The EJB container, rather than the bean developer, is responsible for system-level services, such as transaction management and security authorization. <br>
+- EJBs can - if accordingly annotated - handle transactions and asynchronous execution and can be exposed to remote clients. <br>
+
 There are two kinds of beans. <br>
-1. Session: Usally an application's core business logic is exposed as high-level API.<br>
+1. Session: Usally an application's core business logic is exposed as high-level API. The three types of session beans are Stateless EJB's, Statefull EJBs and Singleton EJBs<br>
 2. Message Driven Bean (MDB): Used for asyncronous communication between components in a java EE application and can be used to receive Java Message Service (JMS) messages. <br>
 
 <h2>Session Beans</h2>

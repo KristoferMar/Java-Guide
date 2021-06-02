@@ -1,5 +1,11 @@
 <h1>Java Basics</h1>
 
+- Java is a statically typed lanaugage meaning value types needs to be defined
+
+<h1>The basic java program</h1>
+
+- All classes named "program" will hold a main method inside of them which can be toggled to run a specific area of code.
+
 <!-- Java Basics -->
 <h2>Basics</h2>
 
