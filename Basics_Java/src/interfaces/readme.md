@@ -7,6 +7,10 @@
 - It's a pure contract
 - Imported like we import classes
 - The keyword "implements" is used when implementing an interface
+<<<<<<< HEAD
+=======
+- An interface can extend other interfaces
+>>>>>>> c306cdec70153cb7dd265ec6bb0a4e235a5afb78
 
 <br>
 <h2>Defining</h2>
