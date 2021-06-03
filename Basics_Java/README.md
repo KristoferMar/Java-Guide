@@ -117,3 +117,11 @@ Can be done like this:<br>
 <br>
 Details: <br>
 https://www.geeksforgeeks.org/double-colon-operator-in-java/
+
+<br>
+<h1>Java debugging</h1>
+- An ide such as Eclipse is needed for debugging - it has an implemented debugger which can be used by setting breakpoints in the code and "Run application" in debug mode.
+
+There are multople steps which can be performed when inside the debugger
+- Step over (F6) - Steps to next line in debugger
+- Step into (F5) - Steps into method of current line
