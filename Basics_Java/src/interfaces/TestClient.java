@@ -1,4 +1,4 @@
-package inheritence;
+package interfaces;
 
 public class TestClient {
 	

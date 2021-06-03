@@ -125,3 +125,14 @@ https://www.geeksforgeeks.org/double-colon-operator-in-java/
 There are multople steps which can be performed when inside the debugger
 - Step over (F6) - Steps to next line in debugger
 - Step into (F5) - Steps into method of current line
+- "Drop to frame" - This step will go back to the beginning of your debugging and variables will not get reinitialised 
+
+
+<h2>JUnit</h2>
+
+- Open source, unit testing framework for Java
+- Set-up input
+- Execute method
+- Test expected output against actual 
+
+In the middle of a debug you can highlight a variable and press "ctrl + shift + i" to view the content/value of that variable without having to do print statements everywhere. 

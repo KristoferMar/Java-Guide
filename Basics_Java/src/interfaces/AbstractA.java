@@ -1,4 +1,4 @@
-package inheritence;
+package interfaces;
 
 public abstract class AbstractA implements A, B {
 	public void bar() {

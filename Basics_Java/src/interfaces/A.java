@@ -1,4 +1,4 @@
-package inheritence;
+package interfaces;
 
 public interface A {
 	int VAL = 5;
