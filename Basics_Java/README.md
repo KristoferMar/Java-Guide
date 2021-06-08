@@ -62,6 +62,9 @@ System.out.println(result);
 
 
 <h3>Java For loop</h3>
+Example:
+https://github.com/KristoferMar/Java-Guide/blob/master/Basics_Java/src/loops/BasicDemo.java
+
 For loop: <br>
 <pre>
   for (int i = 0; i < 5; i++) {
