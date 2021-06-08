@@ -121,7 +121,11 @@ Can be done like this:<br>
 Details: <br>
 https://www.geeksforgeeks.org/double-colon-operator-in-java/
 
-<br>
+<br> <br>
+<h2>Serializable and Deserializable</h2>
+https://github.com/KristoferMar/Java-Guide/tree/master/Basics_Java/src/serializable
+
+<br><br>
 <h1>Java debugging</h1>
 - An ide such as Eclipse is needed for debugging - it has an implemented debugger which can be used by setting breakpoints in the code and "Run application" in debug mode.
 
