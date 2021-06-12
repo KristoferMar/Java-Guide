@@ -1,0 +1,6 @@
+- God for fast lookup by key e.g, data cache
+- Also called associative array
+- No duplicate keys, duplcate values are fine
+- 1 key -> 1 value
+- null key & null values - impl. dependent
+- AbstractMap
