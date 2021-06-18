@@ -20,12 +20,12 @@ Java conditions and if statments used to perform different actions<br>
 
 <br><br>
 <h2>Iteration and Datastructure</h2>
-- Lists
-- Iterable
-- ArrayList
-- LinkedList
-- Map_interface
-- Queinterface
+- Lists <br>
+- Iterable <br>
+- ArrayList <br>
+- LinkedList <br>
+- Map_interface <br>
+- Queinterface <br>
 
 Link: <br>
 https://github.com/KristoferMar/Java-Guide/tree/master/Basics_Java/src/data_structures
