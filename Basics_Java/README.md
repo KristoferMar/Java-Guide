@@ -26,7 +26,7 @@ Java conditions and if statments used to perform different actions<br>
 - LinkedList <br>
 - Map_interface <br>
 - Queinterface <br>
-
+<br>
 Link: <br>
 https://github.com/KristoferMar/Java-Guide/tree/master/Basics_Java/src/data_structures
 
