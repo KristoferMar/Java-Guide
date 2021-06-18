@@ -18,6 +18,18 @@ Java conditions and if statments used to perform different actions<br>
 - Equal to: a == b <br>
 - Not Equal to: a != b <br>
 
+<br><br>
+<h2>Iteration and Datastructure</h2>
+- Lists
+- Iterable
+- ArrayList
+- LinkedList
+- Map_interface
+- Queinterface
+
+Link: <br>
+https://github.com/KristoferMar/Java-Guide/tree/master/Basics_Java/src/data_structures
+
 <br>
 Java has the following conditional statements<br>
 - Use <i>if</i> to specify a block of code to be executed, if a specified condition is true <br>
