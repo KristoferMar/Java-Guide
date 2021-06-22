@@ -140,7 +140,7 @@ https://www.geeksforgeeks.org/double-colon-operator-in-java/
 https://github.com/KristoferMar/Java-Guide/tree/master/Basics_Java/src/serializable
 
 <br><br>
-<h1>Java debugging</h1>
+<h1>Java Testing</h1>
 - An ide such as Eclipse is needed for debugging - it has an implemented debugger which can be used by setting breakpoints in the code and "Run application" in debug mode.
 
 There are multople steps which can be performed when inside the debugger
@@ -149,11 +149,20 @@ There are multople steps which can be performed when inside the debugger
 - "Drop to frame" - This step will go back to the beginning of your debugging and variables will not get reinitialised 
 
 
-<h2>JUnit</h2>
+<h2>Unit/JUnit testcases</h2>
+
+Unit tests should have a specific naming convension such as
+- Test name should express a specific requirement
+- Test name could include the expected input or state and the expected result for that input or state
+- Test name should be presented as a statement or fact of life that expresses workflows and outputs
+- Test name could include the name of the tested method or class
+
+An example of this is the following: <br>
+<pre> MethodName_StateUnderTest_ExpectedBehavior </pre>
 
 - Open source, unit testing framework for Java
 - Set-up input
 - Execute method
 - Test expected output against actual 
 
-In the middle of a debug you can highlight a variable and press "ctrl + shift + i" to view the content/value of that variable without having to do print statements everywhere. 
+In the middle of a debug you can highlight a variable and press "ctrl + shift + i" to view the content/value of that variable without having to do print statements everywhere.
