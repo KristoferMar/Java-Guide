@@ -15,5 +15,4 @@ public class ObjectProgram {
 		
 		System.out.println(new Gson().toJson(sr));
 	}
-
 }
