@@ -74,7 +74,7 @@ public class ListDemo {
 		}		
 	}
 	
-	public static void main(String[] args) {
+	public static void notmain(String[] args) {
 		arrayListDemo();		
 	}
 }

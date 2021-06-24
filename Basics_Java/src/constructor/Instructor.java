@@ -46,7 +46,7 @@ public class Instructor {
 		return oldBook;
 	}
 	
-	public static void nonmain(String[] args) {
+	public static void notmain(String[] args) {
 		Book book1 = new Book("Java for Beginners");
         Book book2 = new Book("Scala for Beginners");
         Book book3 = new Book("Effective Python");

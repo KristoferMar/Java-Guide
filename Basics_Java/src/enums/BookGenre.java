@@ -1,4 +1,4 @@
-package com.semanticsquare.enums;
+package enums;
 
 public enum BookGenre {
 	BIOGRAPHY (12),
@@ -13,7 +13,7 @@ public enum BookGenre {
         return minAgeToRead;
     }
 	
-	public static void nonmain(String[] args) {    
+	public static void notmain(String[] args) {    
 		for (BookGenre bookGenre : BookGenre.values()) {
             System.out.print("\nName: " + bookGenre); //toString
             System.out.print(", name(): " + bookGenre.name());
