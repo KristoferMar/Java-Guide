@@ -1,0 +1,864 @@
+2021-06-28 17:58:42,481 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 41) WFLYCLINF0001: Activating Infinispan subsystem.
+2021-06-28 17:58:42,485 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 40) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2021-06-28 17:58:42,491 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 42) WFLYIIOP0001: Activating IIOP Subsystem
+2021-06-28 17:58:42,499 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2021-06-28 17:58:42,509 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 52) WFLYNAM0001: Activating Naming Subsystem
+2021-06-28 17:58:42,508 INFO  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.3.Final-redhat-1)
+2021-06-28 17:58:42,528 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 60) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2021-06-28 17:58:42,538 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 59) WFLYSEC0002: Activating Security Subsystem
+2021-06-28 17:58:42,538 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 62) WFLYWS0002: Activating WebServices Extension
+2021-06-28 17:58:42,541 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2021-06-28 17:58:42,554 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = h2
+2021-06-28 17:58:42,555 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
+2021-06-28 17:58:42,556 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2021-06-28 17:58:42,555 INFO  [org.jboss.as.security] (MSC service thread 1-3) WFLYSEC0001: Current PicketBox version=4.9.6.Final-redhat-1
+2021-06-28 17:58:42,560 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0003: Undertow 1.3.21.Final-redhat-1 starting
+2021-06-28 17:58:42,565 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 4.0.18.Final-redhat-1
+2021-06-28 17:58:42,629 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0014: Creating file handler for path '/Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2021-06-28 17:58:42,639 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2021-06-28 17:58:42,639 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2021-06-28 17:58:42,695 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0003: Undertow 1.3.21.Final-redhat-1 starting
+2021-06-28 17:58:42,716 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: Started server default-server.
+2021-06-28 17:58:42,718 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2021-06-28 17:58:42,825 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTP listener default listening on 0.0.0.0:8080
+2021-06-28 17:58:42,930 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2021-06-28 17:58:42,997 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0001: AIO wasn't located on this platform, it will fall back to using pure Java NIO.
+2021-06-28 17:58:43,008 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/deployments
+2021-06-28 17:58:43,084 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=/Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/data/activemq/journal,bindingsDirectory=/Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/data/activemq/bindings,largeMessagesDirectory=/Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/data/activemq/largemessages,pagingDirectory=/Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/data/activemq/paging)
+2021-06-28 17:58:43,116 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221013: Using NIO Journal
+2021-06-28 17:58:43,122 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-6) WFLYIIOP0009: CORBA ORB Service started
+2021-06-28 17:58:43,179 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-5) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.2.Final-redhat-1
+2021-06-28 17:58:43,230 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBossWS 5.1.3.SP1-redhat-1 (Apache CXF 3.1.4.redhat-1) 
+2021-06-28 17:58:43,285 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2021-06-28 17:58:43,291 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2021-06-28 17:58:43,377 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-6) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2021-06-28 17:58:43,378 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-3) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2021-06-28 17:58:43,378 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2021-06-28 17:58:43,379 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-4) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2021-06-28 17:58:43,483 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221007: Server is now live
+2021-06-28 17:58:43,483 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221001: Apache ActiveMQ Artemis Message Broker version 1.1.0.SP16-redhat-1 [nodeID=b66da664-d829-11eb-825c-75803c42946f] 
+2021-06-28 17:58:43,515 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 64) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2021-06-28 17:58:43,533 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 66) AMQ221003: trying to deploy queue jms.queue.DLQ
+2021-06-28 17:58:43,579 INFO  [org.apache.activemq.artemis.jms.server] (ServerService Thread Pool -- 67) AMQ121005: Invalid "host" value "0.0.0.0" detected for "http-connector" connector. Switching to "kristofers-macbook-pro.local". If this new address is incorrect please manually configure the connector to use the proper one.
+2021-06-28 17:58:43,581 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 67) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2021-06-28 17:58:43,582 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 65) AMQ221003: trying to deploy queue jms.queue.ExpiryQueue
+2021-06-28 17:58:43,587 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-4) WFLYJCA0007: Registered connection factory java:/JmsXA
+2021-06-28 17:58:43,648 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-4) Resource adaptor started
+2021-06-28 17:58:43,649 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-4) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2021-06-28 17:58:43,651 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-7) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+2021-06-28 17:58:43,651 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-4) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2021-06-28 17:58:43,786 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2021-06-28 17:58:43,787 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2021-06-28 17:58:43,787 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) started in 3558ms - Started 306 of 591 services (386 services are lazy, passive or on-demand)
+2021-06-28 20:47:40,509 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final-redhat-1
+2021-06-28 20:47:40,986 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final-redhat-1
+2021-06-28 20:47:41,062 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) starting
+2021-06-28 20:47:41,063 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	gopherProxySet = false
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/endorsed
+	java.ext.dirs = /Users/kristofereinarsson/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+	java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre
+	java.io.tmpdir = /var/folders/5x/z4vqs1115zb3qymsjcd5jhbr0000gn/T/
+	java.library.path = /Users/kristofereinarsson/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_181-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_181
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.181-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = 0.0.0.0
+	jboss.bind.address.management = localhost
+	jboss.home.dir = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0
+	jboss.host.name = kristofers-macbook-pro
+	jboss.modules.dir = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = kristofers-macbook-pro
+	jboss.qualified.host.name = kristofers-macbook-pro.local
+	jboss.server.base.dir = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone
+	jboss.server.config.dir = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/configuration
+	jboss.server.data.dir = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/data
+	jboss.server.deploy.dir = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/data/content
+	jboss.server.log.dir = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/log
+	jboss.server.name = kristofers-macbook-pro
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/configuration/logging.properties
+	module.path = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/modules
+	org.jboss.boot.log.file = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 10.16
+	path.separator = :
+	program.name = JBossTools: Red Hat JBoss EAP 7.0
+	sun.arch.data.model = 64
+	sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/classes
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = org.jboss.modules.Main -mp /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/modules org.jboss.as.standalone -b 0.0.0.0 --server-config=standalone-full.xml -Djboss.server.base.dir=/Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = DK
+	user.dir = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/bin
+	user.home = /Users/kristofereinarsson
+	user.language = en
+	user.name = kristofereinarsson
+	user.timezone = Europe/Copenhagen
+2021-06-28 20:47:41,064 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:61499 -Dprogram.name=JBossTools: Red Hat JBoss EAP 7.0 -Xms1303m -Xmx1303m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/log/boot.log -Dlogging.configuration=file:/Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/configuration/logging.properties -Djboss.home.dir=/Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0 -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2021-06-28 20:47:42,308 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2021-06-28 20:47:42,328 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.3.6.Final-redhat-1
+2021-06-28 20:47:42,336 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.3.6.Final-redhat-1
+2021-06-28 20:47:42,382 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 41) WFLYCLINF0001: Activating Infinispan subsystem.
+2021-06-28 20:47:42,384 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 42) WFLYIIOP0001: Activating IIOP Subsystem
+2021-06-28 20:47:42,385 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 40) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2021-06-28 20:47:42,399 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2021-06-28 20:47:42,411 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 52) WFLYNAM0001: Activating Naming Subsystem
+2021-06-28 20:47:42,424 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 60) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2021-06-28 20:47:42,428 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 59) WFLYSEC0002: Activating Security Subsystem
+2021-06-28 20:47:42,436 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 62) WFLYWS0002: Activating WebServices Extension
+2021-06-28 20:47:42,436 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2021-06-28 20:47:42,437 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.3.Final-redhat-1)
+2021-06-28 20:47:42,451 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Starting Naming Service
+2021-06-28 20:47:42,455 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2021-06-28 20:47:42,464 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2021-06-28 20:47:42,469 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Current PicketBox version=4.9.6.Final-redhat-1
+2021-06-28 20:47:42,471 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 4.0.18.Final-redhat-1
+2021-06-28 20:47:42,476 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0003: Undertow 1.3.21.Final-redhat-1 starting
+2021-06-28 20:47:42,604 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0003: Undertow 1.3.21.Final-redhat-1 starting
+2021-06-28 20:47:42,636 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2021-06-28 20:47:42,636 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2021-06-28 20:47:42,640 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0014: Creating file handler for path '/Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2021-06-28 20:47:42,645 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0012: Started server default-server.
+2021-06-28 20:47:42,646 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2021-06-28 20:47:42,731 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 0.0.0.0:8080
+2021-06-28 20:47:42,766 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2021-06-28 20:47:42,860 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-5) WFLYIIOP0009: CORBA ORB Service started
+2021-06-28 20:47:42,924 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-6) WFLYMSGAMQ0001: AIO wasn't located on this platform, it will fall back to using pure Java NIO.
+2021-06-28 20:47:42,940 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/deployments
+2021-06-28 20:47:42,978 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=/Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/data/activemq/journal,bindingsDirectory=/Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/data/activemq/bindings,largeMessagesDirectory=/Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/data/activemq/largemessages,pagingDirectory=/Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/data/activemq/paging)
+2021-06-28 20:47:43,006 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221013: Using NIO Journal
+2021-06-28 20:47:43,101 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-1) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.2.Final-redhat-1
+2021-06-28 20:47:43,145 INFO  [org.jboss.ws.common.management] (MSC service thread 1-7) JBWS022052: Starting JBossWS 5.1.3.SP1-redhat-1 (Apache CXF 3.1.4.redhat-1) 
+2021-06-28 20:47:43,163 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2021-06-28 20:47:43,167 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2021-06-28 20:47:43,396 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-6) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2021-06-28 20:47:43,396 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-8) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2021-06-28 20:47:43,396 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2021-06-28 20:47:43,396 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-5) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2021-06-28 20:47:43,442 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221007: Server is now live
+2021-06-28 20:47:43,442 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221001: Apache ActiveMQ Artemis Message Broker version 1.1.0.SP16-redhat-1 [nodeID=b66da664-d829-11eb-825c-75803c42946f] 
+2021-06-28 20:47:43,446 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221003: trying to deploy queue jms.queue.ExpiryQueue
+2021-06-28 20:47:43,463 INFO  [org.apache.activemq.artemis.jms.server] (ServerService Thread Pool -- 66) AMQ121005: Invalid "host" value "0.0.0.0" detected for "http-connector" connector. Switching to "Kristofers-MacBook-Pro.local". If this new address is incorrect please manually configure the connector to use the proper one.
+2021-06-28 20:47:43,484 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 66) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2021-06-28 20:47:43,485 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 67) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2021-06-28 20:47:43,485 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 65) AMQ221003: trying to deploy queue jms.queue.DLQ
+2021-06-28 20:47:43,524 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-6) WFLYJCA0007: Registered connection factory java:/JmsXA
+2021-06-28 20:47:43,586 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-6) Resource adaptor started
+2021-06-28 20:47:43,587 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-6) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2021-06-28 20:47:43,588 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-3) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+2021-06-28 20:47:43,588 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-5) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2021-06-28 20:47:43,789 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2021-06-28 20:47:43,790 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2021-06-28 20:47:43,792 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) started in 3664ms - Started 306 of 591 services (386 services are lazy, passive or on-demand)
+2021-06-28 20:50:54,300 INFO  [org.jboss.as.server] (management-handler-thread - 5) WFLYSRV0236: Suspending server with no timeout.
+2021-06-28 20:50:54,304 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested.
+2021-06-28 20:50:54,341 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2021-06-28 20:50:54,343 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-5) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2021-06-28 20:50:54,346 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-7) WFLYJCA0011: Unbound JCA ConnectionFactory [java:/JmsXA]
+2021-06-28 20:50:54,347 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 70) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2021-06-28 20:50:54,350 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0019: Host default-host stopping
+2021-06-28 20:50:54,355 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2021-06-28 20:50:54,355 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 72) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:/ConnectionFactory
+2021-06-28 20:50:54,381 INFO  [org.apache.activemq.artemis.ra] (ServerService Thread Pool -- 70) AMQ151003: resource adaptor stopped
+2021-06-28 20:50:54,409 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 70) AMQ221002: Apache ActiveMQ Artemis Message Broker version 1.1.0.SP16-redhat-1 [b66da664-d829-11eb-825c-75803c42946f] stopped
+2021-06-28 20:50:54,410 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0008: Undertow HTTP listener default suspending
+2021-06-28 20:50:54,411 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 0.0.0.0:8080
+2021-06-28 20:50:54,412 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0004: Undertow 1.3.21.Final-redhat-1 stopping
+2021-06-28 20:50:54,419 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) stopped in 69ms
+2021-06-28 20:50:55,675 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final-redhat-1
+2021-06-28 20:50:56,161 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final-redhat-1
+2021-06-28 20:50:56,222 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) starting
+2021-06-28 20:50:56,223 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	gopherProxySet = false
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/endorsed
+	java.ext.dirs = /Users/kristofereinarsson/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+	java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre
+	java.io.tmpdir = /var/folders/5x/z4vqs1115zb3qymsjcd5jhbr0000gn/T/
+	java.library.path = /Users/kristofereinarsson/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_181-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_181
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.181-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = 0.0.0.0
+	jboss.bind.address.management = localhost
+	jboss.home.dir = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0
+	jboss.host.name = kristofers-macbook-pro
+	jboss.modules.dir = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = kristofers-macbook-pro
+	jboss.qualified.host.name = kristofers-macbook-pro.local
+	jboss.server.base.dir = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone
+	jboss.server.config.dir = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/configuration
+	jboss.server.data.dir = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/data
+	jboss.server.deploy.dir = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/data/content
+	jboss.server.log.dir = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/log
+	jboss.server.name = kristofers-macbook-pro
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/configuration/logging.properties
+	module.path = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/modules
+	org.jboss.boot.log.file = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 10.16
+	path.separator = :
+	program.name = JBossTools: Red Hat JBoss EAP 7.0
+	sun.arch.data.model = 64
+	sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/classes
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = org.jboss.modules.Main -mp /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/modules org.jboss.as.standalone -b 0.0.0.0 --server-config=standalone-full.xml -Djboss.server.base.dir=/Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = DK
+	user.dir = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/bin
+	user.home = /Users/kristofereinarsson
+	user.language = en
+	user.name = kristofereinarsson
+	user.timezone = Europe/Copenhagen
+2021-06-28 20:50:56,224 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=JBossTools: Red Hat JBoss EAP 7.0 -Xms1303m -Xmx1303m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/log/boot.log -Dlogging.configuration=file:/Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/configuration/logging.properties -Djboss.home.dir=/Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0 -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2021-06-28 20:50:57,059 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2021-06-28 20:50:57,072 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.3.6.Final-redhat-1
+2021-06-28 20:50:57,078 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.3.6.Final-redhat-1
+2021-06-28 20:50:57,100 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 41) WFLYCLINF0001: Activating Infinispan subsystem.
+2021-06-28 20:50:57,105 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 42) WFLYIIOP0001: Activating IIOP Subsystem
+2021-06-28 20:50:57,107 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 40) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2021-06-28 20:50:57,121 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2021-06-28 20:50:57,126 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 52) WFLYNAM0001: Activating Naming Subsystem
+2021-06-28 20:50:57,132 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.3.Final-redhat-1)
+2021-06-28 20:50:57,141 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 60) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2021-06-28 20:50:57,142 INFO  [org.jboss.as.naming] (MSC service thread 1-7) WFLYNAM0003: Starting Naming Service
+2021-06-28 20:50:57,143 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 59) WFLYSEC0002: Activating Security Subsystem
+2021-06-28 20:50:57,145 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2021-06-28 20:50:57,149 INFO  [org.jboss.as.security] (MSC service thread 1-4) WFLYSEC0001: Current PicketBox version=4.9.6.Final-redhat-1
+2021-06-28 20:50:57,162 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 62) WFLYWS0002: Activating WebServices Extension
+2021-06-28 20:50:57,168 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 4.0.18.Final-redhat-1
+2021-06-28 20:50:57,174 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0003: Undertow 1.3.21.Final-redhat-1 starting
+2021-06-28 20:50:57,174 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0003: Undertow 1.3.21.Final-redhat-1 starting
+2021-06-28 20:50:57,193 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2021-06-28 20:50:57,197 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2021-06-28 20:50:57,245 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0014: Creating file handler for path '/Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2021-06-28 20:50:57,256 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2021-06-28 20:50:57,256 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2021-06-28 20:50:57,260 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server default-server.
+2021-06-28 20:50:57,261 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2021-06-28 20:50:57,336 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTP listener default listening on 0.0.0.0:8080
+2021-06-28 20:50:57,415 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2021-06-28 20:50:57,467 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-6) WFLYMSGAMQ0001: AIO wasn't located on this platform, it will fall back to using pure Java NIO.
+2021-06-28 20:50:57,472 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-7) WFLYIIOP0009: CORBA ORB Service started
+2021-06-28 20:50:57,484 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/deployments
+2021-06-28 20:50:57,523 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=/Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/data/activemq/journal,bindingsDirectory=/Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/data/activemq/bindings,largeMessagesDirectory=/Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/data/activemq/largemessages,pagingDirectory=/Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/data/activemq/paging)
+2021-06-28 20:50:57,549 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221013: Using NIO Journal
+2021-06-28 20:50:57,595 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-5) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.2.Final-redhat-1
+2021-06-28 20:50:57,647 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBossWS 5.1.3.SP1-redhat-1 (Apache CXF 3.1.4.redhat-1) 
+2021-06-28 20:50:57,670 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2021-06-28 20:50:57,673 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2021-06-28 20:50:57,908 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-6) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2021-06-28 20:50:57,909 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-7) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2021-06-28 20:50:57,909 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2021-06-28 20:50:57,909 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-5) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2021-06-28 20:50:57,964 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221007: Server is now live
+2021-06-28 20:50:57,965 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221001: Apache ActiveMQ Artemis Message Broker version 1.1.0.SP16-redhat-1 [nodeID=b66da664-d829-11eb-825c-75803c42946f] 
+2021-06-28 20:50:57,967 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221003: trying to deploy queue jms.queue.ExpiryQueue
+2021-06-28 20:50:57,997 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 66) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2021-06-28 20:50:57,998 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 67) AMQ221003: trying to deploy queue jms.queue.DLQ
+2021-06-28 20:50:58,003 INFO  [org.apache.activemq.artemis.jms.server] (ServerService Thread Pool -- 65) AMQ121005: Invalid "host" value "0.0.0.0" detected for "http-connector" connector. Switching to "Kristofers-MacBook-Pro.local". If this new address is incorrect please manually configure the connector to use the proper one.
+2021-06-28 20:50:58,004 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 65) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2021-06-28 20:50:58,052 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-8) WFLYJCA0007: Registered connection factory java:/JmsXA
+2021-06-28 20:50:58,099 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-8) Resource adaptor started
+2021-06-28 20:50:58,099 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-8) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2021-06-28 20:50:58,101 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-5) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2021-06-28 20:50:58,101 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-3) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+2021-06-28 20:50:58,224 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2021-06-28 20:50:58,224 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2021-06-28 20:50:58,225 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) started in 2874ms - Started 306 of 591 services (386 services are lazy, passive or on-demand)
+2021-06-28 20:51:42,884 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/data/content/e9/1424283979280ce592e93cd38b07696d737c97/content
+2021-06-28 20:51:42,906 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "RestAPI.war" (runtime-name: "RestAPI.war")
+2021-06-28 20:51:43,329 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for primary
+2021-06-28 20:51:43,346 WARN  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2021-06-28 20:51:43,445 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/RestAPIDS]
+2021-06-28 20:51:43,447 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 70) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'RestAPI.war#primary'
+2021-06-28 20:51:43,480 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 70) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2021-06-28 20:51:43,527 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment RestAPI.war
+2021-06-28 20:51:43,600 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 70) HHH000412: Hibernate Core {5.0.9.Final-redhat-1}
+2021-06-28 20:51:43,602 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 70) HHH000206: hibernate.properties not found
+2021-06-28 20:51:43,604 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 70) HHH000021: Bytecode provider name : javassist
+2021-06-28 20:51:43,613 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-4) HV000001: Hibernate Validator 5.2.4.Final-redhat-1
+2021-06-28 20:51:43,644 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 70) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
+2021-06-28 20:51:43,655 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 70) HCANN000001: Hibernate Commons Annotations {5.0.1.Final-redhat-2}
+2021-06-28 20:51:43,712 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'HealthCheckService' in deployment unit 'deployment "RestAPI.war"' are as follows:
+
+	java:global/RestAPI/HealthCheckService!com.appdev.cic.RestAPI.rest.HealthCheckService
+	java:app/RestAPI/HealthCheckService!com.appdev.cic.RestAPI.rest.HealthCheckService
+	java:module/HealthCheckService!com.appdev.cic.RestAPI.rest.HealthCheckService
+	java:global/RestAPI/HealthCheckService
+	java:app/RestAPI/HealthCheckService
+	java:module/HealthCheckService
+
+2021-06-28 20:51:43,712 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'deployment "RestAPI.war"' are as follows:
+
+	java:global/RestAPI/MemberRegistration!com.appdev.cic.RestAPI.service.MemberRegistration
+	java:app/RestAPI/MemberRegistration!com.appdev.cic.RestAPI.service.MemberRegistration
+	java:module/MemberRegistration!com.appdev.cic.RestAPI.service.MemberRegistration
+	java:global/RestAPI/MemberRegistration
+	java:app/RestAPI/MemberRegistration
+	java:module/MemberRegistration
+
+2021-06-28 20:51:43,713 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'MemberRemoval' in deployment unit 'deployment "RestAPI.war"' are as follows:
+
+	java:global/RestAPI/MemberRemoval!com.appdev.cic.RestAPI.service.MemberRemoval
+	java:app/RestAPI/MemberRemoval!com.appdev.cic.RestAPI.service.MemberRemoval
+	java:module/MemberRemoval!com.appdev.cic.RestAPI.service.MemberRemoval
+	java:global/RestAPI/MemberRemoval
+	java:app/RestAPI/MemberRemoval
+	java:module/MemberRemoval
+
+2021-06-28 20:51:43,912 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 70) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-06-28 20:51:43,913 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 70) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-06-28 20:51:43,914 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 70) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-06-28 20:51:43,914 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 70) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-06-28 20:51:43,931 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0006: Starting Services for CDI deployment: RestAPI.war
+2021-06-28 20:51:43,975 INFO  [org.jboss.weld.Version] (MSC service thread 1-7) WELD-000900: 2.3.3 (redhat)
+2021-06-28 20:51:44,015 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0009: Starting weld service for deployment RestAPI.war
+2021-06-28 20:51:44,209 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 71) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'RestAPI.war#primary'
+2021-06-28 20:51:44,281 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 70) WFLYCLINF0002: Started client-mappings cache from ejb container
+2021-06-28 20:51:44,511 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 71) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-06-28 20:51:44,518 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 71) HHH000431: Unable to determine H2 database version, certain features may not work
+2021-06-28 20:51:44,569 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 71) Envers integration enabled? : true
+2021-06-28 20:51:45,303 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 71) HHH000227: Running hbm2ddl schema export
+2021-06-28 20:51:45,311 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 71) HHH000476: Executing import script '/import.sql'
+2021-06-28 20:51:45,313 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 71) HHH000388: Unsuccessful: insert into Member (id, name, email, phone_number) values (0, 'John Smith', 'john.smith@mailinator.com', '2125551212')
+2021-06-28 20:51:45,313 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 71) NULL not allowed for column "IDNUBER"; SQL statement:
+insert into Member (id, name, email, phone_number) values (0, 'John Smith', 'john.smith@mailinator.com', '2125551212') [23502-173]
+2021-06-28 20:51:45,313 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 71) HHH000230: Schema export complete
+2021-06-28 20:51:46,001 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 70) Initializing Mojarra 2.2.12-jbossorg-2  for context '/RestAPI'
+2021-06-28 20:51:46,785 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 70) RESTEASY002225: Deploying javax.ws.rs.core.Application: class com.appdev.cic.RestAPI.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2021-06-28 20:51:46,835 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 70) WFLYUT0021: Registered web context: /RestAPI
+2021-06-28 20:51:46,889 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "RestAPI.war" (runtime-name : "RestAPI.war")
+2021-06-28 20:52:01,624 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 70) WFLYUT0022: Unregistered web context: /RestAPI
+2021-06-28 20:52:01,632 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0010: Stopping weld service for deployment RestAPI.war
+2021-06-28 20:52:01,661 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 75) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'RestAPI.war#primary'
+2021-06-28 20:52:01,662 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 75) HHH000227: Running hbm2ddl schema export
+2021-06-28 20:52:01,669 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 75) HHH000230: Schema export complete
+2021-06-28 20:52:01,675 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 75) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'RestAPI.war#primary'
+2021-06-28 20:52:01,686 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/RestAPIDS]
+2021-06-28 20:52:01,693 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 75) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2021-06-28 20:52:01,753 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment RestAPI.war (runtime-name: RestAPI.war) in 138ms
+2021-06-28 20:52:01,784 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/data/content/e9/1424283979280ce592e93cd38b07696d737c97/content
+2021-06-28 20:52:01,784 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "RestAPI.war" (runtime-name: "RestAPI.war")
+2021-06-28 20:52:01,892 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/data/content/e9/42ee971469ca52bdbe4721c1dd27ad3308f458/content
+2021-06-28 20:52:01,895 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "RestAPI.war" (runtime-name: "RestAPI.war")
+2021-06-28 20:52:01,942 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for primary
+2021-06-28 20:52:01,943 WARN  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2021-06-28 20:52:01,962 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/RestAPIDS]
+2021-06-28 20:52:01,962 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 75) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'RestAPI.war#primary'
+2021-06-28 20:52:01,963 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 75) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2021-06-28 20:52:01,968 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment RestAPI.war
+2021-06-28 20:52:01,968 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 75) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
+2021-06-28 20:52:01,975 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'HealthCheckService' in deployment unit 'deployment "RestAPI.war"' are as follows:
+
+	java:global/RestAPI/HealthCheckService!com.appdev.cic.RestAPI.rest.HealthCheckService
+	java:app/RestAPI/HealthCheckService!com.appdev.cic.RestAPI.rest.HealthCheckService
+	java:module/HealthCheckService!com.appdev.cic.RestAPI.rest.HealthCheckService
+	java:global/RestAPI/HealthCheckService
+	java:app/RestAPI/HealthCheckService
+	java:module/HealthCheckService
+
+2021-06-28 20:52:01,975 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'deployment "RestAPI.war"' are as follows:
+
+	java:global/RestAPI/MemberRegistration!com.appdev.cic.RestAPI.service.MemberRegistration
+	java:app/RestAPI/MemberRegistration!com.appdev.cic.RestAPI.service.MemberRegistration
+	java:module/MemberRegistration!com.appdev.cic.RestAPI.service.MemberRegistration
+	java:global/RestAPI/MemberRegistration
+	java:app/RestAPI/MemberRegistration
+	java:module/MemberRegistration
+
+2021-06-28 20:52:01,975 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'MemberRemoval' in deployment unit 'deployment "RestAPI.war"' are as follows:
+
+	java:global/RestAPI/MemberRemoval!com.appdev.cic.RestAPI.service.MemberRemoval
+	java:app/RestAPI/MemberRemoval!com.appdev.cic.RestAPI.service.MemberRemoval
+	java:module/MemberRemoval!com.appdev.cic.RestAPI.service.MemberRemoval
+	java:global/RestAPI/MemberRemoval
+	java:app/RestAPI/MemberRemoval
+	java:module/MemberRemoval
+
+2021-06-28 20:52:02,015 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 75) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-06-28 20:52:02,016 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 75) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-06-28 20:52:02,017 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 75) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-06-28 20:52:02,018 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 75) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-06-28 20:52:02,019 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0006: Starting Services for CDI deployment: RestAPI.war
+2021-06-28 20:52:02,025 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0009: Starting weld service for deployment RestAPI.war
+2021-06-28 20:52:02,027 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 75) WFLYCLINF0002: Started client-mappings cache from ejb container
+2021-06-28 20:52:02,030 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 75) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'RestAPI.war#primary'
+2021-06-28 20:52:02,033 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 75) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-06-28 20:52:02,034 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 75) HHH000431: Unable to determine H2 database version, certain features may not work
+2021-06-28 20:52:02,040 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 75) Envers integration enabled? : true
+2021-06-28 20:52:02,062 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 75) HHH000227: Running hbm2ddl schema export
+2021-06-28 20:52:02,064 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 75) HHH000476: Executing import script '/import.sql'
+2021-06-28 20:52:02,065 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 75) HHH000388: Unsuccessful: insert into Member (id, name, email, phone_number) values (0, 'John Smith', 'john.smith@mailinator.com', '2125551212')
+2021-06-28 20:52:02,065 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 75) NULL not allowed for column "IDNUBER"; SQL statement:
+insert into Member (id, name, email, phone_number) values (0, 'John Smith', 'john.smith@mailinator.com', '2125551212') [23502-173]
+2021-06-28 20:52:02,065 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 75) HHH000230: Schema export complete
+2021-06-28 20:52:02,243 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 73) Initializing Mojarra 2.2.12-jbossorg-2  for context '/RestAPI'
+2021-06-28 20:52:02,376 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 73) RESTEASY002225: Deploying javax.ws.rs.core.Application: class com.appdev.cic.RestAPI.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2021-06-28 20:52:02,382 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0021: Registered web context: /RestAPI
+2021-06-28 20:52:02,398 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "RestAPI.war" (runtime-name : "RestAPI.war")
+2021-06-28 20:52:23,236 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-25) HHH000397: Using ASTQueryTranslatorFactory
+2021-06-28 20:52:39,645 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 76) WFLYUT0022: Unregistered web context: /RestAPI
+2021-06-28 20:52:39,663 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0010: Stopping weld service for deployment RestAPI.war
+2021-06-28 20:52:39,671 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 80) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'RestAPI.war#primary'
+2021-06-28 20:52:39,672 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 80) HHH000227: Running hbm2ddl schema export
+2021-06-28 20:52:39,674 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 80) HHH000230: Schema export complete
+2021-06-28 20:52:39,677 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 80) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'RestAPI.war#primary'
+2021-06-28 20:52:39,685 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/RestAPIDS]
+2021-06-28 20:52:39,691 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 81) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2021-06-28 20:52:39,733 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment RestAPI.war (runtime-name: RestAPI.war) in 88ms
+2021-06-28 20:52:39,759 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/data/content/e9/42ee971469ca52bdbe4721c1dd27ad3308f458/content
+2021-06-28 20:52:39,759 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "RestAPI.war" (runtime-name: "RestAPI.war")
+2021-06-28 20:52:39,882 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/data/content/33/b942b0088948f87e6dee47749b556635f12dba/content
+2021-06-28 20:52:39,885 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "RestAPI.war" (runtime-name: "RestAPI.war")
+2021-06-28 20:52:39,940 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for primary
+2021-06-28 20:52:39,946 WARN  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2021-06-28 20:52:39,968 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/RestAPIDS]
+2021-06-28 20:52:39,968 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 81) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'RestAPI.war#primary'
+2021-06-28 20:52:39,968 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 81) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2021-06-28 20:52:39,974 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 81) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
+2021-06-28 20:52:39,974 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment RestAPI.war
+2021-06-28 20:52:39,981 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'HealthCheckService' in deployment unit 'deployment "RestAPI.war"' are as follows:
+
+	java:global/RestAPI/HealthCheckService!com.appdev.cic.RestAPI.rest.HealthCheckService
+	java:app/RestAPI/HealthCheckService!com.appdev.cic.RestAPI.rest.HealthCheckService
+	java:module/HealthCheckService!com.appdev.cic.RestAPI.rest.HealthCheckService
+	java:global/RestAPI/HealthCheckService
+	java:app/RestAPI/HealthCheckService
+	java:module/HealthCheckService
+
+2021-06-28 20:52:39,981 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'deployment "RestAPI.war"' are as follows:
+
+	java:global/RestAPI/MemberRegistration!com.appdev.cic.RestAPI.service.MemberRegistration
+	java:app/RestAPI/MemberRegistration!com.appdev.cic.RestAPI.service.MemberRegistration
+	java:module/MemberRegistration!com.appdev.cic.RestAPI.service.MemberRegistration
+	java:global/RestAPI/MemberRegistration
+	java:app/RestAPI/MemberRegistration
+	java:module/MemberRegistration
+
+2021-06-28 20:52:39,982 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'MemberRemoval' in deployment unit 'deployment "RestAPI.war"' are as follows:
+
+	java:global/RestAPI/MemberRemoval!com.appdev.cic.RestAPI.service.MemberRemoval
+	java:app/RestAPI/MemberRemoval!com.appdev.cic.RestAPI.service.MemberRemoval
+	java:module/MemberRemoval!com.appdev.cic.RestAPI.service.MemberRemoval
+	java:global/RestAPI/MemberRemoval
+	java:app/RestAPI/MemberRemoval
+	java:module/MemberRemoval
+
+2021-06-28 20:52:40,022 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 81) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-06-28 20:52:40,023 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 81) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-06-28 20:52:40,024 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 81) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-06-28 20:52:40,024 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 81) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-06-28 20:52:40,027 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0006: Starting Services for CDI deployment: RestAPI.war
+2021-06-28 20:52:40,030 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 81) WFLYCLINF0002: Started client-mappings cache from ejb container
+2021-06-28 20:52:40,032 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0009: Starting weld service for deployment RestAPI.war
+2021-06-28 20:52:40,041 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 81) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'RestAPI.war#primary'
+2021-06-28 20:52:40,043 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 81) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-06-28 20:52:40,044 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 81) HHH000431: Unable to determine H2 database version, certain features may not work
+2021-06-28 20:52:40,050 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 81) Envers integration enabled? : true
+2021-06-28 20:52:40,078 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 81) HHH000227: Running hbm2ddl schema export
+2021-06-28 20:52:40,079 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 81) HHH000476: Executing import script '/import.sql'
+2021-06-28 20:52:40,080 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 81) HHH000388: Unsuccessful: insert into Member (id, name, email, phone_number) values (0, 'John Smith', 'john.smith@mailinator.com', '2125551212')
+2021-06-28 20:52:40,080 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 81) NULL not allowed for column "IDNUBER"; SQL statement:
+insert into Member (id, name, email, phone_number) values (0, 'John Smith', 'john.smith@mailinator.com', '2125551212') [23502-173]
+2021-06-28 20:52:40,081 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 81) HHH000230: Schema export complete
+2021-06-28 20:52:40,269 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 81) Initializing Mojarra 2.2.12-jbossorg-2  for context '/RestAPI'
+2021-06-28 20:52:40,385 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 81) RESTEASY002225: Deploying javax.ws.rs.core.Application: class com.appdev.cic.RestAPI.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2021-06-28 20:52:40,390 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 81) WFLYUT0021: Registered web context: /RestAPI
+2021-06-28 20:52:40,405 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0010: Deployed "RestAPI.war" (runtime-name : "RestAPI.war")
+2021-06-28 20:52:50,666 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-26) HHH000397: Using ASTQueryTranslatorFactory
+2021-06-28 20:52:50,689 INFO  [com.appdev.cic.RestAPI.service.MemberRegistration] (default task-26) Registering Daniel
+2021-06-28 20:52:50,739 INFO  [stdout] (default task-26) testing syso
+2021-06-28 20:53:29,924 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 83) WFLYUT0022: Unregistered web context: /RestAPI
+2021-06-28 20:53:29,932 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0010: Stopping weld service for deployment RestAPI.war
+2021-06-28 20:53:29,935 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 86) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'RestAPI.war#primary'
+2021-06-28 20:53:29,936 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 86) HHH000227: Running hbm2ddl schema export
+2021-06-28 20:53:29,938 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 86) HHH000230: Schema export complete
+2021-06-28 20:53:29,939 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 86) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'RestAPI.war#primary'
+2021-06-28 20:53:29,942 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/RestAPIDS]
+2021-06-28 20:53:29,947 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 88) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2021-06-28 20:53:29,969 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment RestAPI.war (runtime-name: RestAPI.war) in 45ms
+2021-06-28 20:53:29,979 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0002: Content removed from location /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/data/content/33/b942b0088948f87e6dee47749b556635f12dba/content
+2021-06-28 20:53:29,979 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0009: Undeployed "RestAPI.war" (runtime-name: "RestAPI.war")
+2021-06-28 20:53:30,052 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0001: Content added at location /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/data/content/72/ae9dcc3fb2052d9b1ff2c4e468948d0be112ec/content
+2021-06-28 20:53:30,054 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "RestAPI.war" (runtime-name: "RestAPI.war")
+2021-06-28 20:53:30,089 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for primary
+2021-06-28 20:53:30,090 WARN  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2021-06-28 20:53:30,103 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/RestAPIDS]
+2021-06-28 20:53:30,103 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 88) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'RestAPI.war#primary'
+2021-06-28 20:53:30,104 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 88) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2021-06-28 20:53:30,108 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 88) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
+2021-06-28 20:53:30,108 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment RestAPI.war
+2021-06-28 20:53:30,113 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'HealthCheckService' in deployment unit 'deployment "RestAPI.war"' are as follows:
+
+	java:global/RestAPI/HealthCheckService!com.appdev.cic.RestAPI.rest.HealthCheckService
+	java:app/RestAPI/HealthCheckService!com.appdev.cic.RestAPI.rest.HealthCheckService
+	java:module/HealthCheckService!com.appdev.cic.RestAPI.rest.HealthCheckService
+	java:global/RestAPI/HealthCheckService
+	java:app/RestAPI/HealthCheckService
+	java:module/HealthCheckService
+
+2021-06-28 20:53:30,113 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'deployment "RestAPI.war"' are as follows:
+
+	java:global/RestAPI/MemberRegistration!com.appdev.cic.RestAPI.service.MemberRegistration
+	java:app/RestAPI/MemberRegistration!com.appdev.cic.RestAPI.service.MemberRegistration
+	java:module/MemberRegistration!com.appdev.cic.RestAPI.service.MemberRegistration
+	java:global/RestAPI/MemberRegistration
+	java:app/RestAPI/MemberRegistration
+	java:module/MemberRegistration
+
+2021-06-28 20:53:30,113 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'MemberRemoval' in deployment unit 'deployment "RestAPI.war"' are as follows:
+
+	java:global/RestAPI/MemberRemoval!com.appdev.cic.RestAPI.service.MemberRemoval
+	java:app/RestAPI/MemberRemoval!com.appdev.cic.RestAPI.service.MemberRemoval
+	java:module/MemberRemoval!com.appdev.cic.RestAPI.service.MemberRemoval
+	java:global/RestAPI/MemberRemoval
+	java:app/RestAPI/MemberRemoval
+	java:module/MemberRemoval
+
+2021-06-28 20:53:30,137 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 88) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-06-28 20:53:30,153 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 88) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-06-28 20:53:30,155 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 88) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-06-28 20:53:30,156 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 88) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-06-28 20:53:30,160 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0006: Starting Services for CDI deployment: RestAPI.war
+2021-06-28 20:53:30,166 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0009: Starting weld service for deployment RestAPI.war
+2021-06-28 20:53:30,167 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 88) WFLYCLINF0002: Started client-mappings cache from ejb container
+2021-06-28 20:53:30,173 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 88) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'RestAPI.war#primary'
+2021-06-28 20:53:30,174 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 88) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-06-28 20:53:30,175 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 88) HHH000431: Unable to determine H2 database version, certain features may not work
+2021-06-28 20:53:30,179 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 88) Envers integration enabled? : true
+2021-06-28 20:53:30,203 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 88) HHH000227: Running hbm2ddl schema export
+2021-06-28 20:53:30,204 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 88) HHH000476: Executing import script '/import.sql'
+2021-06-28 20:53:30,205 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 88) HHH000388: Unsuccessful: insert into Member (id, name, email, phone_number) values (0, 'John Smith', 'john.smith@mailinator.com', '2125551212')
+2021-06-28 20:53:30,206 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 88) NULL not allowed for column "IDNUBER"; SQL statement:
+insert into Member (id, name, email, phone_number) values (0, 'John Smith', 'john.smith@mailinator.com', '2125551212') [23502-173]
+2021-06-28 20:53:30,206 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 88) HHH000230: Schema export complete
+2021-06-28 20:53:30,357 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 88) Initializing Mojarra 2.2.12-jbossorg-2  for context '/RestAPI'
+2021-06-28 20:53:30,467 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 88) RESTEASY002225: Deploying javax.ws.rs.core.Application: class com.appdev.cic.RestAPI.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2021-06-28 20:53:30,472 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 88) WFLYUT0021: Registered web context: /RestAPI
+2021-06-28 20:53:30,485 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0010: Deployed "RestAPI.war" (runtime-name : "RestAPI.war")
+2021-06-28 20:53:41,076 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 88) WFLYUT0022: Unregistered web context: /RestAPI
+2021-06-28 20:53:41,082 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0010: Stopping weld service for deployment RestAPI.war
+2021-06-28 20:53:41,088 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 87) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'RestAPI.war#primary'
+2021-06-28 20:53:41,090 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 87) HHH000227: Running hbm2ddl schema export
+2021-06-28 20:53:41,092 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 87) HHH000230: Schema export complete
+2021-06-28 20:53:41,094 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 87) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'RestAPI.war#primary'
+2021-06-28 20:53:41,097 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/RestAPIDS]
+2021-06-28 20:53:41,102 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 87) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2021-06-28 20:53:41,117 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment RestAPI.war (runtime-name: RestAPI.war) in 43ms
+2021-06-28 20:53:41,126 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0002: Content removed from location /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/data/content/72/ae9dcc3fb2052d9b1ff2c4e468948d0be112ec/content
+2021-06-28 20:53:41,126 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0009: Undeployed "RestAPI.war" (runtime-name: "RestAPI.war")
+2021-06-28 20:53:41,199 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/data/content/ec/0cf57cb0afc0d1ba859d4114850f398b1a561c/content
+2021-06-28 20:53:41,202 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "RestAPI.war" (runtime-name: "RestAPI.war")
+2021-06-28 20:53:41,237 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for primary
+2021-06-28 20:53:41,242 WARN  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2021-06-28 20:53:41,288 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/RestAPIDS]
+2021-06-28 20:53:41,289 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 87) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'RestAPI.war#primary'
+2021-06-28 20:53:41,289 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 87) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2021-06-28 20:53:41,293 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment RestAPI.war
+2021-06-28 20:53:41,293 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 87) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
+2021-06-28 20:53:41,304 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'HealthCheckService' in deployment unit 'deployment "RestAPI.war"' are as follows:
+
+	java:global/RestAPI/HealthCheckService!com.appdev.cic.RestAPI.rest.HealthCheckService
+	java:app/RestAPI/HealthCheckService!com.appdev.cic.RestAPI.rest.HealthCheckService
+	java:module/HealthCheckService!com.appdev.cic.RestAPI.rest.HealthCheckService
+	java:global/RestAPI/HealthCheckService
+	java:app/RestAPI/HealthCheckService
+	java:module/HealthCheckService
+
+2021-06-28 20:53:41,304 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'deployment "RestAPI.war"' are as follows:
+
+	java:global/RestAPI/MemberRegistration!com.appdev.cic.RestAPI.service.MemberRegistration
+	java:app/RestAPI/MemberRegistration!com.appdev.cic.RestAPI.service.MemberRegistration
+	java:module/MemberRegistration!com.appdev.cic.RestAPI.service.MemberRegistration
+	java:global/RestAPI/MemberRegistration
+	java:app/RestAPI/MemberRegistration
+	java:module/MemberRegistration
+
+2021-06-28 20:53:41,305 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'MemberRemoval' in deployment unit 'deployment "RestAPI.war"' are as follows:
+
+	java:global/RestAPI/MemberRemoval!com.appdev.cic.RestAPI.service.MemberRemoval
+	java:app/RestAPI/MemberRemoval!com.appdev.cic.RestAPI.service.MemberRemoval
+	java:module/MemberRemoval!com.appdev.cic.RestAPI.service.MemberRemoval
+	java:global/RestAPI/MemberRemoval
+	java:app/RestAPI/MemberRemoval
+	java:module/MemberRemoval
+
+2021-06-28 20:53:41,335 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 87) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-06-28 20:53:41,336 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 87) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-06-28 20:53:41,337 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 87) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-06-28 20:53:41,337 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 87) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-06-28 20:53:41,339 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0006: Starting Services for CDI deployment: RestAPI.war
+2021-06-28 20:53:41,341 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 87) WFLYCLINF0002: Started client-mappings cache from ejb container
+2021-06-28 20:53:41,344 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0009: Starting weld service for deployment RestAPI.war
+2021-06-28 20:53:41,350 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 87) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'RestAPI.war#primary'
+2021-06-28 20:53:41,352 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 87) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-06-28 20:53:41,353 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 87) HHH000431: Unable to determine H2 database version, certain features may not work
+2021-06-28 20:53:41,357 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 87) Envers integration enabled? : true
+2021-06-28 20:53:41,374 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 87) HHH000227: Running hbm2ddl schema export
+2021-06-28 20:53:41,375 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 87) HHH000476: Executing import script '/import.sql'
+2021-06-28 20:53:41,375 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 87) HHH000388: Unsuccessful: insert into Member (id, name, email, phone_number) values (0, 'John Smith', 'john.smith@mailinator.com', '2125551212')
+2021-06-28 20:53:41,376 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 87) NULL not allowed for column "IDNUBER"; SQL statement:
+insert into Member (id, name, email, phone_number) values (0, 'John Smith', 'john.smith@mailinator.com', '2125551212') [23502-173]
+2021-06-28 20:53:41,376 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 87) HHH000230: Schema export complete
+2021-06-28 20:53:41,495 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 88) Initializing Mojarra 2.2.12-jbossorg-2  for context '/RestAPI'
+2021-06-28 20:53:41,587 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 88) RESTEASY002225: Deploying javax.ws.rs.core.Application: class com.appdev.cic.RestAPI.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2021-06-28 20:53:41,592 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 88) WFLYUT0021: Registered web context: /RestAPI
+2021-06-28 20:53:41,602 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "RestAPI.war" (runtime-name : "RestAPI.war")
+2021-06-28 20:53:43,624 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 88) WFLYUT0022: Unregistered web context: /RestAPI
+2021-06-28 20:53:43,628 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0010: Stopping weld service for deployment RestAPI.war
+2021-06-28 20:53:43,630 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 88) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'RestAPI.war#primary'
+2021-06-28 20:53:43,631 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 88) HHH000227: Running hbm2ddl schema export
+2021-06-28 20:53:43,634 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 88) HHH000230: Schema export complete
+2021-06-28 20:53:43,635 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 88) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'RestAPI.war#primary'
+2021-06-28 20:53:43,639 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/RestAPIDS]
+2021-06-28 20:53:43,643 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 88) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2021-06-28 20:53:43,656 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment RestAPI.war (runtime-name: RestAPI.war) in 32ms
+2021-06-28 20:53:43,665 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/data/content/ec/0cf57cb0afc0d1ba859d4114850f398b1a561c/content
+2021-06-28 20:53:43,665 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "RestAPI.war" (runtime-name: "RestAPI.war")
+2021-06-28 20:53:43,745 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/data/content/48/80cc28818ff368c577c3bbd9c08744d6214fc6/content
+2021-06-28 20:53:43,747 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "RestAPI.war" (runtime-name: "RestAPI.war")
+2021-06-28 20:53:43,782 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for primary
+2021-06-28 20:53:43,783 WARN  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2021-06-28 20:53:43,801 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/RestAPIDS]
+2021-06-28 20:53:43,802 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 88) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'RestAPI.war#primary'
+2021-06-28 20:53:43,802 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 88) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2021-06-28 20:53:43,805 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 88) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
+2021-06-28 20:53:43,807 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment RestAPI.war
+2021-06-28 20:53:43,810 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'HealthCheckService' in deployment unit 'deployment "RestAPI.war"' are as follows:
+
+	java:global/RestAPI/HealthCheckService!com.appdev.cic.RestAPI.rest.HealthCheckService
+	java:app/RestAPI/HealthCheckService!com.appdev.cic.RestAPI.rest.HealthCheckService
+	java:module/HealthCheckService!com.appdev.cic.RestAPI.rest.HealthCheckService
+	java:global/RestAPI/HealthCheckService
+	java:app/RestAPI/HealthCheckService
+	java:module/HealthCheckService
+
+2021-06-28 20:53:43,810 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'deployment "RestAPI.war"' are as follows:
+
+	java:global/RestAPI/MemberRegistration!com.appdev.cic.RestAPI.service.MemberRegistration
+	java:app/RestAPI/MemberRegistration!com.appdev.cic.RestAPI.service.MemberRegistration
+	java:module/MemberRegistration!com.appdev.cic.RestAPI.service.MemberRegistration
+	java:global/RestAPI/MemberRegistration
+	java:app/RestAPI/MemberRegistration
+	java:module/MemberRegistration
+
+2021-06-28 20:53:43,810 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'MemberRemoval' in deployment unit 'deployment "RestAPI.war"' are as follows:
+
+	java:global/RestAPI/MemberRemoval!com.appdev.cic.RestAPI.service.MemberRemoval
+	java:app/RestAPI/MemberRemoval!com.appdev.cic.RestAPI.service.MemberRemoval
+	java:module/MemberRemoval!com.appdev.cic.RestAPI.service.MemberRemoval
+	java:global/RestAPI/MemberRemoval
+	java:app/RestAPI/MemberRemoval
+	java:module/MemberRemoval
+
+2021-06-28 20:53:43,838 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 88) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-06-28 20:53:43,839 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 88) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-06-28 20:53:43,839 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 88) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-06-28 20:53:43,840 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 88) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-06-28 20:53:43,840 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0006: Starting Services for CDI deployment: RestAPI.war
+2021-06-28 20:53:43,843 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0009: Starting weld service for deployment RestAPI.war
+2021-06-28 20:53:43,847 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 88) WFLYCLINF0002: Started client-mappings cache from ejb container
+2021-06-28 20:53:43,848 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 88) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'RestAPI.war#primary'
+2021-06-28 20:53:43,851 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 88) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-06-28 20:53:43,852 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 88) HHH000431: Unable to determine H2 database version, certain features may not work
+2021-06-28 20:53:43,855 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 88) Envers integration enabled? : true
+2021-06-28 20:53:43,874 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 88) HHH000227: Running hbm2ddl schema export
+2021-06-28 20:53:43,876 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 88) HHH000476: Executing import script '/import.sql'
+2021-06-28 20:53:43,876 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 88) HHH000388: Unsuccessful: insert into Member (id, name, email, phone_number) values (0, 'John Smith', 'john.smith@mailinator.com', '2125551212')
+2021-06-28 20:53:43,876 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 88) NULL not allowed for column "IDNUBER"; SQL statement:
+insert into Member (id, name, email, phone_number) values (0, 'John Smith', 'john.smith@mailinator.com', '2125551212') [23502-173]
+2021-06-28 20:53:43,877 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 88) HHH000230: Schema export complete
+2021-06-28 20:53:44,000 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 83) Initializing Mojarra 2.2.12-jbossorg-2  for context '/RestAPI'
+2021-06-28 20:53:44,086 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 83) RESTEASY002225: Deploying javax.ws.rs.core.Application: class com.appdev.cic.RestAPI.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2021-06-28 20:53:44,090 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 83) WFLYUT0021: Registered web context: /RestAPI
+2021-06-28 20:53:44,101 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0010: Deployed "RestAPI.war" (runtime-name : "RestAPI.war")
+2021-06-28 20:53:50,648 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-27) HHH000397: Using ASTQueryTranslatorFactory
+2021-06-28 20:53:50,656 INFO  [com.appdev.cic.RestAPI.service.MemberRegistration] (default task-27) Registering Daniel
+2021-06-28 20:53:50,661 INFO  [stdout] (default task-27) org.jboss.resteasy.specimpl.ResponseBuilderImpl@14fda69a
+2021-06-28 20:54:03,066 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 83) WFLYUT0022: Unregistered web context: /RestAPI
+2021-06-28 20:54:03,076 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0010: Stopping weld service for deployment RestAPI.war
+2021-06-28 20:54:03,079 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 91) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'RestAPI.war#primary'
+2021-06-28 20:54:03,081 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 91) HHH000227: Running hbm2ddl schema export
+2021-06-28 20:54:03,082 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 91) HHH000230: Schema export complete
+2021-06-28 20:54:03,084 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 91) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'RestAPI.war#primary'
+2021-06-28 20:54:03,085 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/RestAPIDS]
+2021-06-28 20:54:03,091 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 90) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2021-06-28 20:54:03,120 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment RestAPI.war (runtime-name: RestAPI.war) in 55ms
+2021-06-28 20:54:03,131 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/data/content/48/80cc28818ff368c577c3bbd9c08744d6214fc6/content
+2021-06-28 20:54:03,131 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "RestAPI.war" (runtime-name: "RestAPI.war")
+2021-06-28 20:54:03,193 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/data/content/50/25feb100e501e8dc1916375c8be8f3d8c5d31a/content
+2021-06-28 20:54:03,195 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "RestAPI.war" (runtime-name: "RestAPI.war")
+2021-06-28 20:54:03,225 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for primary
+2021-06-28 20:54:03,226 WARN  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2021-06-28 20:54:03,239 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/RestAPIDS]
+2021-06-28 20:54:03,239 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 90) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'RestAPI.war#primary'
+2021-06-28 20:54:03,240 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 90) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2021-06-28 20:54:03,243 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 90) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
+2021-06-28 20:54:03,243 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment RestAPI.war
+2021-06-28 20:54:03,247 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'HealthCheckService' in deployment unit 'deployment "RestAPI.war"' are as follows:
+
+	java:global/RestAPI/HealthCheckService!com.appdev.cic.RestAPI.rest.HealthCheckService
+	java:app/RestAPI/HealthCheckService!com.appdev.cic.RestAPI.rest.HealthCheckService
+	java:module/HealthCheckService!com.appdev.cic.RestAPI.rest.HealthCheckService
+	java:global/RestAPI/HealthCheckService
+	java:app/RestAPI/HealthCheckService
+	java:module/HealthCheckService
+
+2021-06-28 20:54:03,247 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'deployment "RestAPI.war"' are as follows:
+
+	java:global/RestAPI/MemberRegistration!com.appdev.cic.RestAPI.service.MemberRegistration
+	java:app/RestAPI/MemberRegistration!com.appdev.cic.RestAPI.service.MemberRegistration
+	java:module/MemberRegistration!com.appdev.cic.RestAPI.service.MemberRegistration
+	java:global/RestAPI/MemberRegistration
+	java:app/RestAPI/MemberRegistration
+	java:module/MemberRegistration
+
+2021-06-28 20:54:03,247 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'MemberRemoval' in deployment unit 'deployment "RestAPI.war"' are as follows:
+
+	java:global/RestAPI/MemberRemoval!com.appdev.cic.RestAPI.service.MemberRemoval
+	java:app/RestAPI/MemberRemoval!com.appdev.cic.RestAPI.service.MemberRemoval
+	java:module/MemberRemoval!com.appdev.cic.RestAPI.service.MemberRemoval
+	java:global/RestAPI/MemberRemoval
+	java:app/RestAPI/MemberRemoval
+	java:module/MemberRemoval
+
+2021-06-28 20:54:03,271 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 90) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-06-28 20:54:03,272 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 90) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-06-28 20:54:03,273 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 90) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-06-28 20:54:03,274 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 90) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-06-28 20:54:03,276 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0006: Starting Services for CDI deployment: RestAPI.war
+2021-06-28 20:54:03,278 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0009: Starting weld service for deployment RestAPI.war
+2021-06-28 20:54:03,279 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 90) WFLYCLINF0002: Started client-mappings cache from ejb container
+2021-06-28 20:54:03,284 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 90) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'RestAPI.war#primary'
+2021-06-28 20:54:03,287 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 90) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-06-28 20:54:03,288 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 90) HHH000431: Unable to determine H2 database version, certain features may not work
+2021-06-28 20:54:03,292 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 90) Envers integration enabled? : true
+2021-06-28 20:54:03,325 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 90) HHH000227: Running hbm2ddl schema export
+2021-06-28 20:54:03,330 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 90) HHH000476: Executing import script '/import.sql'
+2021-06-28 20:54:03,331 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 90) HHH000388: Unsuccessful: insert into Member (id, name, email, phone_number) values (0, 'John Smith', 'john.smith@mailinator.com', '2125551212')
+2021-06-28 20:54:03,331 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 90) NULL not allowed for column "IDNUBER"; SQL statement:
+insert into Member (id, name, email, phone_number) values (0, 'John Smith', 'john.smith@mailinator.com', '2125551212') [23502-173]
+2021-06-28 20:54:03,331 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 90) HHH000230: Schema export complete
+2021-06-28 20:54:03,470 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 90) Initializing Mojarra 2.2.12-jbossorg-2  for context '/RestAPI'
+2021-06-28 20:54:03,572 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 90) RESTEASY002225: Deploying javax.ws.rs.core.Application: class com.appdev.cic.RestAPI.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2021-06-28 20:54:03,579 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 90) WFLYUT0021: Registered web context: /RestAPI
+2021-06-28 20:54:03,591 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0010: Deployed "RestAPI.war" (runtime-name : "RestAPI.war")
+2021-06-28 20:54:05,698 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-28) HHH000397: Using ASTQueryTranslatorFactory
+2021-06-28 20:54:05,706 INFO  [com.appdev.cic.RestAPI.service.MemberRegistration] (default task-28) Registering Daniel
+2021-06-28 20:54:05,712 INFO  [stdout] (default task-28) org.jboss.resteasy.specimpl.ResponseBuilderImpl@6a08c81

@@ -88,9 +88,12 @@ public class MemberResourceRESTService {
             validateMember(member);
 
             registration.register(member);
-
+                       
             // Create an "ok" response
             builder = Response.ok();
+            
+            System.out.println(Response.ok().toString());
+
         } catch (ConstraintViolationException ce) {
             // Handle bean validation issues
             builder = createViolationResponse(ce.getConstraintViolations());

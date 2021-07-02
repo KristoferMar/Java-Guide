@@ -1,0 +1,99 @@
+2021-06-28 17:58:40,660 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final-redhat-1
+2021-06-28 17:58:40,970 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final-redhat-1
+2021-06-28 17:58:41,090 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) starting
+2021-06-28 17:58:41,091 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	gopherProxySet = false
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/endorsed
+	java.ext.dirs = /Users/kristofereinarsson/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+	java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre
+	java.io.tmpdir = /var/folders/5x/z4vqs1115zb3qymsjcd5jhbr0000gn/T/
+	java.library.path = /Users/kristofereinarsson/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_181-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_181
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.181-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = 0.0.0.0
+	jboss.bind.address.management = localhost
+	jboss.home.dir = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0
+	jboss.host.name = kristofers-macbook-pro
+	jboss.modules.dir = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = kristofers-macbook-pro
+	jboss.qualified.host.name = kristofers-macbook-pro.local
+	jboss.server.base.dir = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone
+	jboss.server.config.dir = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/configuration
+	jboss.server.data.dir = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/data
+	jboss.server.deploy.dir = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/data/content
+	jboss.server.log.dir = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/log
+	jboss.server.name = kristofers-macbook-pro
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/configuration/logging.properties
+	module.path = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/modules
+	org.jboss.boot.log.file = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 10.16
+	path.separator = :
+	program.name = JBossTools: Red Hat JBoss EAP 7.0
+	sun.arch.data.model = 64
+	sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/classes
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = org.jboss.modules.Main -mp /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/modules org.jboss.as.standalone -b 0.0.0.0 --server-config=standalone-full.xml -Djboss.server.base.dir=/Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = DK
+	user.dir = /Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/bin
+	user.home = /Users/kristofereinarsson
+	user.language = en
+	user.name = kristofereinarsson
+	user.timezone = Europe/Copenhagen
+2021-06-28 17:58:41,092 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:59559 -Dprogram.name=JBossTools: Red Hat JBoss EAP 7.0 -Xms1303m -Xmx1303m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/log/boot.log -Dlogging.configuration=file:/Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0/standalone/configuration/logging.properties -Djboss.home.dir=/Users/kristofereinarsson/Development/private/Java-Guide/jboss-eap-7.0 -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2021-06-28 17:58:42,417 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2021-06-28 17:58:42,439 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.3.6.Final-redhat-1
+2021-06-28 17:58:42,448 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.3.6.Final-redhat-1

@@ -2,6 +2,31 @@ Java rest API using jax-rs
 ========================
 Source: <https://github.com/jboss-jdf/jboss-as-quickstart/>
 
+<h1>Project Setup</h1>
+To run this project you need IDE sutch as eclipse.
+
+1. Make sure to have "servers" available for you. If not follow this link:
+https://stackoverflow.com/questions/13039449/no-server-in-eclipse-trying-to-install-tomcat
+
+2. Under servers press "create new server"
+3. Navigate to "Red Hat JBoss Moddleware" and select -->
+ "Red Hat JBoss Enterprise Application Platform 7.0" --> Give it a host name "localhost" and a server's name (keep it default) --> Press "next"
+
+4. Select "Management Opreations" under "Controlled by" and press "next.
+
+5. Download the Red Hat EAP from the following website and place it somewhere meaningfull.
+https://developers.redhat.com/products/eap/download 
+
+6. Refer to the EAP which you have placed somewhere 
+
+7. Change standalone.xml to standalone-full.xml
+
+8. Press finish.
+
+<h3>Start server</h3>
+
+- Select on your project and press "run on server" and then select the EAP server you just created. From here a url windows should appear on your screen.
+
 What is it?
 -----------
 

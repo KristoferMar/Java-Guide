@@ -15,6 +15,10 @@ final : Variable is final and CAN'T be modified. <br>
 Section on the basics can be found here:<br>
 https://github.com/KristoferMar/Java-Guide/tree/master/Basics_Java <br>
 
+<h1>Java EE</h1>
+
+Sample project:
+
 
 <br>
 <h2>Maven</h2>
