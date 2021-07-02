@@ -50,6 +50,11 @@ if (condition1) {
 </pre>
 
 
+<h2>Switch statements</h2>
+Link: <br>
+https://github.com/KristoferMar/Java-Guide/blob/master/Basics_Java/src/switch_statement/Switch.java 
+
+
 <br><br>
 <h2>Iteration and Datastructure</h2>
 - Lists <br>
