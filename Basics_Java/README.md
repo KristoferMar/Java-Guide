@@ -62,6 +62,9 @@ https://github.com/KristoferMar/Java-Guide/blob/master/Basics_Java/src/switch_st
 - ArrayList <br>
 - LinkedList <br>
 - Map_interface <br>
+<br>
+<h3>HashMap</h3> 
+https://github.com/KristoferMar/Java-Guide/blob/master/Basics_Java/src/data_structures/map_interface/MapHeaders.java <br><br>
 - Queinterface <br>
 <br>
 Link: <br>
