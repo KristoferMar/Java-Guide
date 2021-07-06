@@ -449,7 +449,7 @@
 
     <deployments>
         <deployment name="RestAPI.war" runtime-name="RestAPI.war">
-            <content sha1="7801068c8dd23d1e4a3549f5de444f7f92673cb6"/>
+            <content sha1="61af2512b488133c6d482840dcc2ca21b3fa0ec9"/>
         </deployment>
     </deployments>
 </server>

@@ -13,7 +13,6 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 import com.appdev.cic.RestAPI.model.SKATErrorResponse;
-import com.google.gson.Gson;
 
 @Path("/objecttester")
 @RequestScoped

@@ -446,10 +446,4 @@
             <remote-destination host="localhost" port="25"/>
         </outbound-socket-binding>
     </socket-binding-group>
-
-    <deployments>
-        <deployment name="RestAPI.war" runtime-name="RestAPI.war">
-            <content sha1="7801068c8dd23d1e4a3549f5de444f7f92673cb6"/>
-        </deployment>
-    </deployments>
 </server>
