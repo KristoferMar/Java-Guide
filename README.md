@@ -26,6 +26,10 @@ Sample project:
 Apache Maven is a build automation tool for Java projects. It helps us building Java projects with dependencies and special build requirements.
 Mavn has serveral commands which are important to know.
 
+<h3>.m2 repository folder</h3>
+- Located in your home folder.
+
+
 TEST <br>
 
 Run All Test Methods <br>

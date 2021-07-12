@@ -13,6 +13,7 @@
 	</classpathentry>
 	<classpathentry kind="src" path="inheritance"/>
 	<classpathentry kind="src" path="Debugging"/>
+	<classpathentry kind="src" path="String"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
