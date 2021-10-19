@@ -38,6 +38,28 @@ JAX-RS: javax.ws.rs includes the following annotations.
 
 - Defines the media types that the methods of a resource class or MessageBodyReader can accept and produce.
 
+<h3>Scopes</h3>
+A rest API service class can be annotated with different kinds of scopes what determine how the service can hold state for the incoming and outgoing request. We have the following: 
+
+@RequestScoped
+
+- A user’s interaction with a web application in a single HTTP request.
+
+@SessionScoped
+
+- A user’s interaction with a web application across multiple HTTP requests.
+
+@ApplicationScoped
+
+- Shared state across all users’ interactions with a web application.
+
+@Dependent
+
+- The default scope if none is specified; it means that an object exists to serve exactly one client (bean) and has the same lifecycle as that client (bean).
+
+@ConversationScoped
+
+- A user’s interaction with a JavaServer Faces application, within explicit developer-controlled boundaries that extend the scope across multiple invocations of the JavaServer Faces lifecycle. All long-running conversations are scoped to a particular HTTP servlet session and may not cross session boundaries.
 
 <br>
 <h3>Example if implementation</h3>
