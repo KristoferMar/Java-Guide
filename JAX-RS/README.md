@@ -42,3 +42,12 @@ JAX-RS: javax.ws.rs includes the following annotations.
 <br>
 <h3>Example if implementation</h3>
 <a href="https://github.com/KristoferMar/Java-Guide/blob/master/RestAPI/src/main/java/com/appdev/cic/RestAPI/rest/MemberResourceRESTService.java" target="_blank">https://github.com/KristoferMar/Java-Guide/blob/master/RestAPI/src/main/java/com/appdev/cic/RestAPI/rest/MemberResourceRESTService.java</a><br><br>
+
+<h2>Related dependencies</h2>
+<h3>lombok</h3>
+It's a java library that automatically plugs into your editor and builds tools, spicing up your java. <br>
+
+https://projectlombok.org/
+
+<h4>@Data</h4>
+This annotation generates all the boilerplate that is normally associated with simple POJOs and beans: getters for all fields, setters for all non-final fields and appropriate toString, equals and hashCode implementations that evlove the field of the class.
