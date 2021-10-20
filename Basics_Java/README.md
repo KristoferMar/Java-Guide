@@ -49,6 +49,19 @@ if (condition1) {
 }
 </pre>
 
+<br><br>
+<h4>Ternary operator</h4>
+We use the ternary operator to create an inline ifstatement. <br>
+<pre>
+variable = (condition) ? expressionTrue :  expressionFalse;
+</pre><br>
+Example<br>
+<pre>
+int time = 20;
+String result = (time < 18) ? "Good day." : "Good evening.";
+System.out.println(result);
+</pre>
+
 
 <h2>Switch statements</h2>
 Link: <br>
@@ -69,19 +82,6 @@ https://github.com/KristoferMar/Java-Guide/blob/master/Basics_Java/src/data_stru
 <br>
 Link: <br>
 https://github.com/KristoferMar/Java-Guide/tree/master/Basics_Java/src/data_structures <br>
-
-<br><br>
-<h4>Ternary operator</h4>
-We use the ternary operator to create an inline ifstatement. <br>
-<pre>
-variable = (condition) ? expressionTrue :  expressionFalse;
-</pre><br>
-Example<br>
-<pre>
-int time = 20;
-String result = (time < 18) ? "Good day." : "Good evening.";
-System.out.println(result);
-</pre>
 
 
 
