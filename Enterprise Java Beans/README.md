@@ -43,12 +43,12 @@ Example Remote: <br>
 - Transactions makes sure that we can rollback whenever some business logic from an EJB is executed and fails on it's way. 
 
 We have the following transaction annotations. <br>
-<h3>@TransactionAttribute(TransactionAttributeType.REQUIRED)<h3>
-<h3>@TransactionAttribute(TransactionAttributeType.REQUIRES_NEW)<h3>
-<h3>@TransactionAttribute(TransactionAttributeType.MANDATORY)<h3>
-<h3>@TransactionAttribute(TransactionAttributeType.NOT_SUPPORTED)<h3>
-<h3>@TransactionAttribute(TransactionAttributeType.SUPPORTS)<h3>
-<h3>@TransactionAttribute(TransactionAttributeType.NEVER)<h3>
+<h3>@TransactionAttribute(TransactionAttributeType.REQUIRED)</h3>
+<h3>@TransactionAttribute(TransactionAttributeType.REQUIRES_NEW)</h3>
+<h3>@TransactionAttribute(TransactionAttributeType.MANDATORY)</h3>
+<h3>@TransactionAttribute(TransactionAttributeType.NOT_SUPPORTED)</h3>
+<h3>@TransactionAttribute(TransactionAttributeType.SUPPORTS)</h3>
+<h3>@TransactionAttribute(TransactionAttributeType.NEVER)</h3>
 
 Example of multiple: <br>
 <a href="https://github.com/KristoferMar/Java-Guide/blob/master/Enterprise%20Java%20Beans/TransactionAttributes.java" target="_blank">https://github.com/KristoferMar/Java-Guide/blob/master/Enterprise%20Java%20Beans/TransactionAttributes.java</a><br><br>
