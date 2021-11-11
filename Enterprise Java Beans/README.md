@@ -50,8 +50,8 @@ We have the following transaction annotations. <br>
 <h3>@TransactionAttribute(TransactionAttributeType.SUPPORTS)</h3>
 <h3>@TransactionAttribute(TransactionAttributeType.NEVER)</h3>
 
-Example of multiple: <br>
+Container managed transactions example: <br>
 <a href="https://github.com/KristoferMar/Java-Guide/blob/master/Enterprise%20Java%20Beans/TransactionAttributes.java" target="_blank">https://github.com/KristoferMar/Java-Guide/blob/master/Enterprise%20Java%20Beans/TransactionAttributes.java</a><br><br>
 
-Acutal Example:<br>
+Bean managed transaction Example:<br>
 <a href="https://github.com/KristoferMar/Java-Guide/blob/master/Enterprise%20Java%20Beans/TransactionExample.java" target="_blank">https://github.com/KristoferMar/Java-Guide/blob/master/Enterprise%20Java%20Beans/TransactionExample.java</a><br><br>
