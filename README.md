@@ -5,6 +5,9 @@ Java, Maven, Redhat, JBoss and more is explained in this section. <br>
 Official documentation <br>
 https://docs.oracle.com/javaee/7/api/toc.htm
 
+Java 6
+https://docs.oracle.com/javaee/6/
+
 ## Programming language
 
 ### Variables
