@@ -1,5 +1,8 @@
 <h1>Messaging Application with JMS</h1>
 
+#### Official documentation
+https://docs.oracle.com/javaee/7/api/javax/jms/package-summary.html
+
 We use JMS to create, use and orcistrate a message que in diffent kinds of applications. JMS Conists of multiple components and subcombonents which all come together to form a system with the intention to reade, write and handle tasks from a que. <br>
 
 In Java Message Driven Applications you will need to find the JNDI which often is the jms-queue which you que messages in and read from. It's often located in '/opt/eap/standalone/configuration/Standalone-full.xml'. Here you can find <jms-queue configured and see the name of the que. <br>
@@ -15,11 +18,13 @@ It uses <br>
 - Object that a client uses to create a connection to the JMS provider.
 - Often needs connection or authentication parameters predefined by a server admin.
 
-Link: <br>
-fasdfasd <br>
+#### Link:
+https://docs.oracle.com/javaee/7/api/javax/jms/ConnectionFactory.html <br>
 
 <h3>Connection</h3>
+
 - Virtual connection to JMS provider.
+
 - We use JMS Context to create this connection.
 
 <h3>Session</h3>
