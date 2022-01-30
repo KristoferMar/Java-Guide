@@ -13,7 +13,7 @@ public class HelloWorld {
      return "<b>Hello World!</b>";
   }
 
-  @RolesAllowed("admin, guest")
+  @RolesAllowed({"admin, guest"})
   @GET
   @Path("newest")
   public Person getNewestPerson() {
