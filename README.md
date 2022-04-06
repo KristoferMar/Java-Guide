@@ -159,3 +159,8 @@ https://fileinfo.com/extension/iml
 #### target folders
 
 The target folder is the maven default output folder. When a project is build or packaged, all the content of the sources, resources and web files will be put inside of it, it will be used for construct the artifacts and for run tests. You can delete all the target folder content with mvn clean command.
+
+
+## Keystore and Certificates
+Given that you have the password you can look into a keystore like this
+<pre>keytool -list -v -keystore privateKey.store</pre>
