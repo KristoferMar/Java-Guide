@@ -27,14 +27,12 @@ https://developers.redhat.com/products/eap/download
 
 - Select on your project and press "run on server" and then select the EAP server you just created. From here a url windows should appear on your screen.
 
-What is it?
+The Jboss EAP server
 -----------
 
-This is your project! It is a sample, deployable Maven 3 project to help you get your foot in the door developing with Java EE 6 on JBoss Enterprise Application Platform 6 or JBoss AS 7. 
-
-This project is setup to allow you to create a compliant Java EE 6 application using JSF 2.0, CDI 1.0, EJB 3.1, JPA 2.0 and Bean Validation 1.0. It includes a persistence unit and some sample persistence and transaction code to introduce you to database access in enterprise Java. 
-
-There is a tutorial for this quickstart in the [Getting Started Developing Applications Guide](http://www.jboss.org/jdf/quickstarts/jboss-as-quickstart/guide/RestAPI/).
+Known problems:
+- If you run into issues where a dependency is not working on the EAP server then it's because you have to add it directly into the /WEB-INF/lib folder. Check out the following thread and solution
+https://stackoverflow.com/questions/4961336/i-am-getting-java-lang-classnotfoundexception-com-google-gson-gson-error-even
 
 System requirements
 -------------------
