@@ -5,6 +5,18 @@ Source: <https://github.com/jboss-jdf/jboss-as-quickstart/>
 <h1>Project Setup</h1>
 To run this project you need IDE sutch as eclipse.
 
+1. Login to registry.access.redhat.com
+
+2. Build container with 
+<pre>
+        podman build -t restapi:latest .
+</pre>
+
+3. Run container 
+<pre>
+        podman run -d -p 8080:8080 -p 9990:9990 localhost/restapi
+</pre>
+
 1. Make sure to have "servers" available for you. If not follow this link:
 https://stackoverflow.com/questions/13039449/no-server-in-eclipse-trying-to-install-tomcat
 

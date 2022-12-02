@@ -1,0 +1,11 @@
+FROM registry.access.redhat.com/jboss-eap-7/eap71-openshift
+
+MAINTAINER "IBM"
+
+COPY target/RestAPI.war $JBOSS_HOME/standalone/deployments/RestAPI.war
+
+USER root
+
+RUN chown jboss:jboss $JBOSS_HOME/standalone/deployments/RestAPI.war
+
+USER jboss
