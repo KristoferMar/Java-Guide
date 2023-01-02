@@ -1,0 +1,18 @@
+###
+GET http://localhost:8080/RestAPI/api/healthCheck
+
+###
+GET http://localhost:8080/RestAPI/api/members
+
+### POST - Anvendersystemer
+POST http://localhost:8080/RestAPI/api/members
+Content-Type: application/json
+
+{
+  "name": "Kristofer",
+  "phoneNumber": 20119522,
+  "email": "kristofer@test.dk" 
+}
+
+###
+GET http://localhost:8080/RestAPI/api/healthCheck
