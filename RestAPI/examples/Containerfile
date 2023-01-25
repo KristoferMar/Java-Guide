@@ -1,0 +1,35 @@
+# This Example is how to deploy a rest aplication on jboss and also configure JDBC driver and datasource
+
+#FROM registry.access.redhat.com/jboss-eap-7/eap74-openjdk8-openshift-rhel7
+
+FROM registry.redhat.io/jboss-eap-7/eap74-openjdk8-openshift-rhel7
+
+MAINTAINER "IBM"
+
+COPY target/RestAPI.ear $JBOSS_HOME/standalone/deployments/RestAPI.ear
+COPY mysql80-community-release-el7-7.noarch.rpm /home/jboss/mysql80-community-release-el7-7.noarch.rpm
+
+USER root
+
+RUN chown jboss:jboss $JBOSS_HOME/standalone/deployments/RestAPI.ear
+
+# Uncomment below to install less for debugging and navigation within container
+RUN yum install -y less
+RUN yum install -y /home/jboss/mysql80-community-release-el7-7.noarch.rpm
+RUN yum install -y mysql-connector-java
+# Install JDBC driver
+RUN /opt/eap/bin/jboss-cli.sh -u=jboss --command="module add --name=com.mysql --resources=/usr/share/java/mysql-connector-java.jar --dependencies=javax.api,javax.transaction.api"
+
+# Configure datasource 
+#RUN /opt/eap/bin/jboss-cli.sh --connect --command="data-source add --name=SPDefaultDS --jndi-name=java:jboss/datasources/SPDefaultDS --driver-name=mysql --connection-url=jdbc:mysql://172.17.0.1:3306/system --user-name=root --password=Test1234 --validate-on-match=true --background-validation=false --valid-connection-checker-class-name=org.jboss.jca.adapters.jdbc.extensions.mysql.MySQLValidConnectionChecker --exception-sorter-class-name=org.jboss.jca.adapters.jdbc.extensions.mysql.MySQLExceptionSorter"
+
+#data-source add --name=SPDefaultDS --jndi-name=java:jboss/datasources/SPDefaultDS --driver-name=mysql --connection-url=jdbc:mysql://172.17.0.1:3306/system --user-name=root --password=Test1234 --validate-on-match=true --background-validation=false --valid-connection-checker-class-name=org.jboss.jca.adapters.jdbc.extensions.mysql.MySQLValidConnectionChecker --exception-sorter-class-name=org.jboss.jca.adapters.jdbc.extensions.mysql.MySQLExceptionSorter
+
+# Test datasource 
+#/opt/eap/bin/jboss-cli.sh --connect --command="/subsystem=datasources/data-source=SPDefaultDS:test-connection-in-pool"
+
+
+EXPOSE 8080/tcp
+EXPOSE 9990/tcp
+
+USER jboss
