@@ -15,3 +15,9 @@ To keep a test container running for reuse you might have to set environment var
 3. You have to get rid of the @Testcontainers annotation and the @Container annotation and you have to use testcontainers manually. 
 
 4. You then use @BeforeAll and runcontainer.start() instead. Also remember to stop them in the @after class
+
+5. Here you can extends "AbstractTest" class to have containers running across.
+
+
+### Networking
+You can configure networking between testcontainers --> Go to their website --> feature --> Networking and communicationg with containers
