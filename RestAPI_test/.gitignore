@@ -1,0 +1,5 @@
+/target/
+.settings
+.metadata
+.idea
+/.apt_generated/
